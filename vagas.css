@@ -1,0 +1,37 @@
+/* body{
+
+} */
+
+.container{
+    display: flex;
+}
+
+.infojob {
+    display: block;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2{
+    right: 30px;
+}
+
+.quadrado1 {
+    width: 400px; /* largura */
+    height: 500px; /* altura */
+    background-color: #e6e6e6;
+    border-radius: 5%; /* borda */
+    margin-right: 20%;
+
+}
+
+.quadrado2 {
+    width: 400px;
+    height: 500px;
+    background-color: #4F719d;
+    border-radius: 5%;
+    
+}
