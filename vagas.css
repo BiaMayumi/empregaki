@@ -1,6 +1,8 @@
-/* body{
-
-} */
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #ffffff 50%, #4F719d 50%);
+}
 
 .container{
     display: flex;
@@ -15,23 +17,27 @@ h1 {
     font-size: 30px;
 }
 
-h2{
-    right: 30px;
+/* h2{
+    font-size: 30px;
+} */
+
+.tituloinfof {
+    width: 20px;
+    margin-top: -14%;
 }
 
 .quadrado1 {
     width: 400px; /* largura */
-    height: 500px; /* altura */
+    height: 400px; /* altura */
     background-color: #e6e6e6;
     border-radius: 5%; /* borda */
     margin-right: 20%;
+    line-height: 1.5;
 
 }
 
-.quadrado2 {
-    width: 400px;
-    height: 500px;
-    background-color: #4F719d;
-    border-radius: 5%;
-    
+.infof {
+    text-align: left;
+    width: 30%;
+    margin-top: -3%;
 }
