@@ -17,10 +17,21 @@
         </label>
         <nav class="navbar">
             <a href="#"style="--i:0;">HOME</a>
-            <a href="#"style="--i:1;">VAGAS</a>
+            <a href="#"style="--i:1;" id="scrollToCategoriasButton">VAGAS</a>
             <a href="#"style="--i:2;">CURRÍCULO</a>
         </nav>
         <a href="#" class="login"><i class='bx bxs-log-in'></i></a>
     </header>
+
+    <script>
+         const scrollToCategoriasButton = document.getElementById("scrollToCategoriasButton");
+  
+            scrollToCategoriasButton.addEventListener("click", () => {
+                window.scrollTo({
+                top: 1210,
+                behavior: "smooth",
+            });
+        });
+    </script>
 </body>
 </html>
