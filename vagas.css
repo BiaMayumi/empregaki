@@ -3,11 +3,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: black;   
+    color: black;  
+     
 }
 
 h1 {
-    text-align: center;
+    /* text-align: center; */
     background-color: #2d4059;
     color: white;
     padding: 20px;
@@ -63,17 +64,13 @@ h1 {
     width: 16%;
     height: 20%;
     text-align: center;
+    cursor: pointer;
 }
 
 .texto {
     color: white;
     text-align: center;
 }
-
-/* .show-more {
-    max-height: none;
-} */
-
 
 .hide {
     display: none;
