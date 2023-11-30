@@ -135,8 +135,9 @@ body{
 .secao3 h1{
     text-align: center;
     margin-top: 8em;
-    font-weight: 300;
+    font-weight: 200;
     padding-top: 3em;
+    font-size: 2em;
 }
 
 .quadrados {
