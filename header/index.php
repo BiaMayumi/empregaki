@@ -16,19 +16,28 @@
             <i class='bx bx-x' id="close-icon"></i>
         </label>
         <nav class="navbar">
-            <a href="#"style="--i:0;">HOME</a>
-            <a href="#"style="--i:1;" id="scrollToCategoriasButton">VAGAS</a>
+            <a href="#"style="--i:0;" id="scrollToUpButton">HOME</a>
+            <a href="#"style="--i:1;" id="scrollToVagasButton">VAGAS</a>
             <a href="#"style="--i:2;">CURRÍCULO</a>
         </nav>
         <a href="#" class="login"><i class='bx bxs-log-in'></i></a>
     </header>
 
     <script>
-         const scrollToCategoriasButton = document.getElementById("scrollToCategoriasButton");
+         const scrollToVagasButton = document.getElementById("scrollToVagasButton");
   
-            scrollToCategoriasButton.addEventListener("click", () => {
+            scrollToVagasButton.addEventListener("click", () => {
                 window.scrollTo({
-                top: 1210,
+                top: 1300,
+                behavior: "smooth",
+            });
+        });
+        
+        const scrollToUpButton = document.getElementById("scrollToUpButton");
+  
+            scrollToUpButton.addEventListener("click", () => {
+                window.scrollTo({
+                top: 0,
                 behavior: "smooth",
             });
         });
