@@ -13,7 +13,7 @@ body {
     margin: 20px;
 }
 
-.imgfundo img{
+.imgFundo img{
     width: 100%;
 }
 
@@ -52,6 +52,7 @@ body {
 #quiz-form h3{
     font-size: 1.4rem;
     font-weight: 200;
+    padding-top: 3rem;
 }
 
 #quiz-form label{
