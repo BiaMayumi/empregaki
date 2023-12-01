@@ -17,7 +17,7 @@ h1 {
 .infojob {
     text-align: center;
     margin: 10px 0;
-    border-bottom: 1px solid #000; /* Adicionando sublinhado com borda de 1 pixel de espessura */
+    border-bottom: 1px solid #00000022; /* Adicionando sublinhado com borda de 1 pixel de espessura */
     padding-bottom: 5px; /* Ajustando o espaço entre o texto e o sublinhado */
     margin-bottom: 10px; /* Adicionando um espaço entre os elementos */
 }
