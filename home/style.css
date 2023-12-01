@@ -99,15 +99,16 @@ body{
     font-size: 1.3rem;
 }
 
-.pesquisa{
+.secao1 .pesquisa{
     border-radius: 125px;
     border: none;
     display: flex;
     text-align: center;
     width: 20rem;
-    height: 2.3em;
+    height: 2.5em;
     margin: auto;
     margin-top: 3em;
+    color: #2D4059;
 }
 
 .circulos{

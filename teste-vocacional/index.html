@@ -5,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste Vocacional</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-
+   <header class="header">
+        <a href="../home/index.php"><img src="../img/logo 1.png"  id="logo" class="logo"></a>
+        <h1>Qual a profissão certa para você?</h1>
+   </header>
+   <br><br>
+   <div class="imgfundo"><img src="img/fundotestevocacional.png"></div>
 <div id="quiz-container">
-    <h1>Teste Vocacional</h1>
     <form id="quiz-form">
         <!-- Perguntas e opções -->
         <div id="question-container"></div>
+        <div class="transition"></div>
         <button type="button" onclick="nextQuestion()">Próxima Pergunta</button>
     </form>
 </div>
@@ -21,6 +27,12 @@
     <h2>Resultado</h2>
     <p id="result"></p>
 </div>
+<script>
+    document.getElementById('logo').addEventListener('click', function() {
+        
+    }
+    )
+</script>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>

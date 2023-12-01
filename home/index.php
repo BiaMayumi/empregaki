@@ -72,7 +72,7 @@
 
         <div class="quadrados">
             <h3>Cozinha</h3>
-            <img src="img/img quadrado.png">
+            <img src="img/img quadrado6.png">
         </div>
     </section>
 
