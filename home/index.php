@@ -8,20 +8,11 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo"><img src="img/logo.png"></a>
-        <input type="checkbox" id="check">
-        <label for="check" class="icons">
-            <i class='bx bx-menu' id="menu-icon"></i>
-            <i class='bx bx-x' id="close-icon"></i>
-        </label>
-        <nav class="navbar">
-            <a href="#"style="--i:0;" >HOME</a>
-            <a href="#"style="--i:1;" id="scrollToCategoriasButton">VAGAS</a>
-            <a href="#"style="--i:2;">CURRÍCULO</a>
-        </nav>
-        <a href="#" class="login"><i class='bx bxs-log-in'></i></a>
-    </header>
+
+    <?php 
+        include_once("../header/index.php");
+    ?>
+    
     <!-- Seção 1 -->
     <section class="secao1">
         <h1>Onde talentos encontram oportunidades!</h1>
@@ -85,16 +76,6 @@
         </div>
     </section>
 
-    <script>
-         const scrollToCategoriasButton = document.getElementById("scrollToCategoriasButton");
-  
-            scrollToCategoriasButton.addEventListener("click", () => {
-                window.scrollTo({
-                top: 1210,
-                behavior: "smooth",
-            });
-        });
-    </script>
 </body>
 </html>
 
