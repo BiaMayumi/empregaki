@@ -20,6 +20,7 @@
             <a href="#"style="--i:1;" id="scrollToVagasButton">VAGAS</a>
             <a href="#"style="--i:2;">CURRÍCULO</a>
         </nav>
+        <a href="#" class="login"><i class='bx bx-user'></i></a>
         <a href="#" class="login"><i class='bx bxs-log-in'></i></a>
     </header>
 

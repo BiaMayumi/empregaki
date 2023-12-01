@@ -53,7 +53,7 @@ function showResult() {
     const maxScoreIndex = totalScores.indexOf(Math.max(...totalScores));
 
     // Mapeie o índice de pontuação máxima para a profissão correspondente
-    const professions = ["Profissão ", "Profissão 2", "Profissão 3"];
+    const professions = ["Matemático", "Educação física", "Lider comunitário", "Cirurgião", "Psicologo", "Desenvolvedor de sistemas", "Analista e-commerce", "Indústria", "Contador", "Design", "Médico", "Analise de sistemas", "Arquiteto", "Jornalismo", "Professor"];
     const result = professions[maxScoreIndex];
 
     // Exiba o resultado
@@ -61,6 +61,25 @@ function showResult() {
     resultContainer.style.display = 'block';
     quizContainer.style.display = 'none';
 }
+
+    //Exibindo profissão com imagem 
+    document.addEventListener('DOMContentLoaded', function () {
+        const imgFundo = document.createElement('img');
+        const imgFundoElemento = document.getElementById('imgFundo');
+
+        
+        if (result === "Matemático") {
+            imgFundo.src = 'img/matematico.jpeg';
+            imgFundo.alt = 'Matemático';
+            imgFundo.title = 'Matemático';
+            imgFundoElemento.appendChild(imgFundo);
+        }
+
+        if(result == "Educação Física") {
+            imgFundo.src = 'img/'
+        }
+    });
+   
 
 // Inicializa o quiz
 displayQuestion();
