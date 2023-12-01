@@ -7,6 +7,9 @@
     <link rel="stylesheet" type="text/css" href="testev.css" media="screen" />
 </head>
 <body>
+  <img src="img/logo 1.png" alt="Descrição da imagem">
+  <a href="index.php">Voltar para a Página Inicial</a>
+  
   <h1> Descubra a profissão <br> 
     que mais tem haver <br>
     com você!</h1>
@@ -16,19 +19,27 @@
     
     <form class="form">
         
-        <div class="group">
-          <input required="true" class="main-input" type="text">
-          <span class="highlight-span"></span>
-          <label class="lebal-email">Nome</label>
-        </div>
-        <div class="container-1">
-            <div class="group">
-                <input required="true" class="main-input" type="text">
-                <span class="highlight-span"></span>
-                <label class="lebal-email">Email</label>
-              </div>
-        </div>
-        <button class="submit">Ir para o teste</button>
-      </form>
+      <div class="group">
+        <input required="true" class="main-input" type="text">
+        <span class="highlight-span"></span>
+        <label class="lebal-email">Nome*</label>
+      </div>
+      <div class="container-1">
+          <div class="group">
+              <input required="true" class="main-input" type="text">
+              <span class="highlight-span"></span>
+              <label class="lebal-email">Email*</label>
+            </div>
+      </div>
+      <button class="submit">Ir para o teste</button>
+    </form>
+    <p class="mensagem" id="mensagem">Formulário enviado, obrigado!</p>
+      <script>
+        function enviarFormulario() {
+            document.getElementById("mensagem").style.display = "block";
+        }
+      </script>
+
+      
 </body>
 </html>
