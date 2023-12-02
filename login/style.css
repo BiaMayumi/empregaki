@@ -71,6 +71,29 @@ body{
     display: none;
 }
 
+.user{
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.user .user-icon{
+    font-size: 1.3rem;
+}
+
+.user a,
+.login a {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.user a i {
+    color: #ffffff; 
+    font-size: 2rem; 
+}
+
 .container{
     background-color: #fff;
     border-radius: 30px;
