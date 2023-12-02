@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <a href="#" class="logo"><img src="img/logo.png"></a>
+        <a href="../home/index.php" class="logo"><img src="img/logo.png"></a>
         <input type="checkbox" id="check">
         <label for="check" class="icons">
             <i class='bx bx-menu' id="menu-icon"></i>
@@ -20,8 +20,10 @@
             <a href="#"style="--i:1;" id="scrollToVagasButton">VAGAS</a>
             <a href="#"style="--i:2;">CURRÍCULO</a>
         </nav>
-        <a href="#" class="login"><i class='bx bx-user'></i></a>
-        <a href="#" class="login"><i class='bx bxs-log-in'></i></a>
+        <div class="user">
+        <a href="#" class="user-icon"><i class='bx bx-user'></i></a>
+        <a href="../login/index.php" class="login"><i class='bx bxs-log-in'></i></a>
+        </div>
     </header>
 
     <script>
