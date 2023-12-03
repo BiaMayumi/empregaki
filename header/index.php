@@ -16,7 +16,7 @@
             <i class='bx bx-x' id="close-icon"></i>
         </label>
         <nav class="navbar">
-            <a href="#"style="--i:0;" id="scrollToUpButton">HOME</a>
+            <a href="../home/index.php"style="--i:0;" id="scrollToUpButton">HOME</a>
             <a href="#"style="--i:1;" id="scrollToVagasButton">VAGAS</a>
             <a href="#"style="--i:2;">CURRÍCULO</a>
         </nav>
