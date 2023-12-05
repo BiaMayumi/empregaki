@@ -113,8 +113,8 @@
         </div>
     </section>
 
-      <!-- Seção 5 -->
-      <section class="secao5 text-center py-5">
+    <!-- Seção 5 -->
+    <section class="secao5 text-center py-5">
         <div class="container">
             <h2>Qual a fama da Empregaki?</h2>
             <h4 class="mb-4">Os candidatos:</h4>
@@ -135,56 +135,72 @@
         </div>
     </section>
 
-<!-- seção 6 -->
-<section class="secao6 text-center py-5">
-    <div class="container">
-        <h2>Nossos Patrocinadores</h2>
-        <div class="row justify-content-center align-items-center mt-4">
-            <div class="col-md-2">
-                <div class="patrocinador">
-                    <img src="img/vw.png" class="patrocinador__icone" alt="Volkswagen">
+    <!-- Seção 6 -->
+    <section class="secao6 text-center py-5">
+        <div class="container">
+            <h2>Nossos Patrocinadores</h2>
+            <div class="row justify-content-center align-items-center mt-4">
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="patrocinador">
+                        <img src="img/vw.png" class="patrocinador__icone" alt="Volkswagen">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="patrocinador">
-                    <img src="img/oboticario.png" class="patrocinador__icone" alt="O Boticário">
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="patrocinador">
+                        <img src="img/oboticario.png" class="patrocinador__icone" alt="O Boticário">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="patrocinador">
-                    <img src="img/tim.png" class="patrocinador__icone" alt="TIM">
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="patrocinador">
+                        <img src="img/tim.png" class="patrocinador__icone" alt="TIM">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="patrocinador">
-                    <img src="img/ford.png" class="patrocinador__icone" alt="Ford">
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="patrocinador">
+                        <img src="img/ford.png" class="patrocinador__icone" alt="Ford">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="patrocinador">
-                    <img src="img/honda.png" class="patrocinador__icone" alt="Honda">
+                <!-- Novas colunas para os novos patrocinadores -->
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="patrocinador">
+                        <img src="img/indeed.png" class="patrocinador__icone" alt="indeed">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="patrocinador">
-                    <img src="img/gm.png" class="patrocinador__icone" alt="General Motors">
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="patrocinador">
+                        <img src="img/dell.png" class="patrocinador__icone" alt="dell">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="patrocinador">
-                        <img src="img/linkedin.png" class="patrocinador__icone" alt="linkedin">
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="patrocinador">
+                        <img src="img/natura.png" class="patrocinador__icone" alt="natura">
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-2">
-                <div class="patrocinador">
-                    <img src="img/siemens.png" class="patrocinador__icone" alt="siemens">
+                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
+                    <div class="patrocinador">
+                        <img src="img/cna.png" class="patrocinador__icone" alt="leroy merlin">
+                    </div>
                 </div>
+
             </div>
+
         </div>
-    </div>
-</section>
+    </section>
 
+    <!-- Seção 7 -->
+    <section class="container">
+        <h1>Não sabe por onde começar?</h1>
+        <img src="img/vocacional.png" class="vocacional" alt=":/">
+        <div class="texto">
+            <p>Preparamos um teste que indica a profissão que mais combina com suas características.</p>
+            <p>É super simples e rápido: basta responder a algumas perguntinhas, que você vai receber os resultados.</p>
+        </div>
+        <button class="botao_">Quero descobrir</button>
+    </section>
 
+</body>
+
+</html>
 
 
 </body>
