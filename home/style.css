@@ -94,7 +94,7 @@ body{
     text-align: center;
     font-weight: 200;
     font-size: 3rem;
-    color: #2D4059;
+    color: #ffffff;
 }
 
 .secao1 h3 {
@@ -154,6 +154,7 @@ body{
 
 .secao3 {
     background-color: #2D4059;
+    color: #ffffff;
 }
 
 .secao3 h1{
@@ -178,10 +179,94 @@ body{
     margin-left: 2em;
 }
 
+/* seção 4 */
 
+.secao4 h1 {
+    text-align: center;
+    margin-top: 8;
+    font-weight: 200;
+    padding-top: 3em;
+    font-size: 2em;
+    
+}
 
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    
+}
 
+.cards .card {
+    flex: 0 0 calc(30% - 40px);
+    margin: 20px;
+    background-color: #233854;
+    color: #ffffff;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    font-size: 14px;
 
+}
+
+.cards .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cards .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cards .card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cards .card .btn-primary {
+    background-color: #4F719D;
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 5px 10px;
+}
+
+.cards .card .btn-primary:hover {
+    background-color: #0f1e31;
+}
+
+/* seção 5 */
+.secao5 {
+    background-color: #2D4059;
+    color: aliceblue;
+}
+
+/* seção 6 */
+
+.patrocinador {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.patrocinador__icone {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+}
 
 
 @media (max-width: 992px) {
@@ -251,3 +336,4 @@ body{
     }
 
 }
+
