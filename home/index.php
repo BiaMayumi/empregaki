@@ -21,7 +21,6 @@
         <h1>Onde talentos encontram oportunidades!</h1>
         <h3>Faça sua pesquisa e veja as melhores opções de vagas do site.</h3>
         <input type="text" placeholder="Pesquise aqui" class="pesquisa">
-
     </section>
 
     <!-- Seção 2 -->
@@ -75,7 +74,7 @@
 
         <div class="quadrados">
             <h3>Cozinha</h3>
-            <img src="img/img quadrado6.png">
+            <img src="../home/img/cozinha.png">
         </div>
     </section>
     <!-- Seção 4 -->
@@ -181,9 +180,7 @@
                         <img src="img/cna.png" class="patrocinador__icone" alt="leroy merlin">
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
 
@@ -195,14 +192,8 @@
             <p>Preparamos um teste que indica a profissão que mais combina com suas características.</p>
             <p>É super simples e rápido: basta responder a algumas perguntinhas, que você vai receber os resultados.</p>
         </div>
-        <button class="botao_">Quero descobrir</button>
+        <a href="../teste-vocacional/index.html"><button class="botao_">Quero descobrir</button></a>
     </section>
 
 </body>
-
-</html>
-
-
-</body>
-
 </html>

@@ -28,7 +28,7 @@
                 <input type="text" placeholder="Name">
                 <input type="email" name="email" placeholder="Email">
                 <input type="password" name="senha" placeholder="Password">
-                <button>Sign Up</button>
+                <button>Entrar</button>
             </form>
         </div>
         <div class="form-container sign-in">
