@@ -21,7 +21,6 @@
         <h1>Onde talentos encontram oportunidades!</h1>
         <h3>Faça sua pesquisa e veja as melhores opções de vagas do site.</h3>
         <input type="text" placeholder="Pesquise aqui" class="pesquisa">
-
     </section>
 
     <!-- Seção 2 -->
@@ -75,8 +74,15 @@
 
         <div class="quadrados">
             <h3>Cozinha</h3>
-            <img src="img/img quadrado6.png">
+            <img src="../home/img/cozinha.png">
         </div>
+
+        <a href="../vagas/vagas.html"><button class="button">
+            Ver mais
+         <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+         <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+        </svg>
+</button></a>
     </section>
     <!-- Seção 4 -->
     <section class="secao4">
@@ -181,29 +187,25 @@
                         <img src="img/cna.png" class="patrocinador__icone" alt="leroy merlin">
                     </div>
                 </div>
-
             </div>
-
         </div>
     </section>
 
     <!-- Seção 7 -->
-    <section class="container">
+    <section class="secao7">
         <h1>Não sabe por onde começar?</h1>
         <img src="img/vocacional.png" class="vocacional" alt=":/">
         <div class="texto">
             <p>Preparamos um teste que indica a profissão que mais combina com suas características.</p>
             <p>É super simples e rápido: basta responder a algumas perguntinhas, que você vai receber os resultados.</p>
         </div>
+<<<<<<< HEAD
         <button class="botao_">Quero descobrir</button>
         
+=======
+        <a href="../teste-vocacional/index.html"><button class="botao_">Quero descobrir</button></a>
+>>>>>>> 4f3ae9a06e57b73bf4a3a601df7a997803ebcfca
     </section>
 
 </body>
-
-</html>
-
-
-</body>
-
 </html>
