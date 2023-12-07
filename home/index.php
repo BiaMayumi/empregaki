@@ -97,7 +97,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Como montar um bom currículo</h5> <br>
                     <p class="card-text">Você precisa pensar no conceito de marketing pessoal para aplicar ao seu currículo. Essa é a essência do que você precisa dominar, já que está preparando seu currículo com a finalidade de atrair e convencer um potencial empregador.</p>
-                    <a href="#" class="btn btn-primary">Ler Mais</a>
+                    <a href="artigo/index.php" class="btn btn-primary">Ler Mais</a>
                 </div>
             </div>
 
