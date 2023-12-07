@@ -89,6 +89,8 @@ body {
     font-size: 2.5rem;
 }
 
+/* Seção 1   */
+
 .secao1 h1 {
     margin-top: 34vh;
     text-align: center;
@@ -114,6 +116,7 @@ h3 {
     font-weight: 200;
 }
 
+/* Seção 2 */
 .secao2 h1 {
     margin-top: 40vh;
 }
@@ -141,6 +144,12 @@ h3 {
     margin-top: 5em;
     cursor: pointer;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+
+.circulos:hover {
+  transform: translateY(-10px); /* Move os círculos para cima ao passar o cursor sobre eles */
 }
 
 .circulos h1 {
@@ -153,9 +162,11 @@ h3 {
     margin-left: 2.3em;
 }
 
+/* Seção 3 */
 .secao3 {
     background-color: #2D4059;
     color: #ffffff;
+    height: 55em;
 }
 
 .secao3 h1 {
@@ -320,7 +331,12 @@ a {
 }
 
 .titulo-patrocinadores {
+<<<<<<< HEAD
     font-size: 24px;
+=======
+    font-size: 35px;
+    /* Tamanho do título */
+>>>>>>> d878eef5c7735e10c7c53032484a07cfdc07a0b0
     margin-bottom: 20px;
 }
 
@@ -361,6 +377,11 @@ a {
     color: #fff;
 }
 
+.textosecao7 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
 .vocacional {
     margin-top: 30px;
     margin-left: 100px;
@@ -372,6 +393,7 @@ a {
     margin-left: 700px;
     margin-top: -240px;
     color: #fff;
+    font-size: 20px;
 
 }
 
@@ -403,6 +425,22 @@ a {
 @media (max-width: 768px) {
     .icons {
         display: inline-flex;
+    }
+
+    body{
+        background: #4F719D;
+    }
+
+    .circulos {
+        padding-top: 5em;
+    }
+
+    .user-icon{
+        padding-right: 1em;
+    }
+
+    .secao3 {
+        height: 132em;
     }
 
     #check:checked~.icons #menu-icon {

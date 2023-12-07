@@ -83,6 +83,7 @@
                     <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
                 </svg>
             </button></a>
+            <br><br>
     </section>
     
     <!-- Seção 4 -->
@@ -145,6 +146,7 @@
     <!-- Seção 6 -->
     <section class="patrocinadores">
         <h2 class="titulo-patrocinadores">Nossos Patrocinadores</h2>
+        <br>
         <div class="logos-patrocinadores">
             <div class="linha-patrocinadores">
                 <div class="patrocinador">
@@ -177,13 +179,17 @@
 
     <!-- Seção 7 -->
     <section class="secao7">
-        <h1>Não sabe por onde começar?</h1>
+        <br>  
+        <div class="textosecao7">Não sabe por onde começar?</div> 
+
         <img src="img/vocacional.png" class="vocacional" alt=":/">
         <div class="texto">
             <p>Preparamos um teste que indica a profissão que mais combina com suas características.</p>
             <p>É super simples e rápido: basta responder a algumas perguntinhas, que você vai receber os resultados.</p>
+            <br>
         </div>
         <a href="../formulariotv/testev.html"><button class="botao_">Quero descobrir</button></a>
+        <br><br><br><br>
     </section>
 
 </body>
