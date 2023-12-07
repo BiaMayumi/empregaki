@@ -331,10 +331,8 @@ a {
 }
 
 .titulo-patrocinadores {
-    font-size: 35px;
-    /* Tamanho do título */
+    font-size: 24px;
     margin-bottom: 20px;
-    /* Espaçamento abaixo do título */
 }
 
 .logos-patrocinadores {
