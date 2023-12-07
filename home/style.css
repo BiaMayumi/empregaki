@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,12 +8,12 @@
     text-decoration: none;
 }
 
-body{
+body {
     background: url(img/fundohome.png) no-repeat;
     background-size: contain;
 }
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,39 +25,39 @@ body{
     z-index: 100;
 }
 
-.header::before{
+.header::before {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0, .1);
+    background: rgba(0, 0, 0, .1);
     backdrop-filter: blur(50px);
     z-index: -1;
 }
 
-.logo{
+.logo {
     width: 3px;
 }
 
-.navbar a{
+.navbar a {
     font-size: 1rem;
     color: #ffffff;
     font-weight: 300;
     margin-left: 4rem;
 }
 
-#check{
+#check {
     display: none;
 }
 
-.login{
+.login {
     font-size: 2rem;
     color: #ffffff;
 }
 
-.icons{
+.icons {
     position: absolute;
     right: 12%;
     font-size: 2.8rem;
@@ -66,7 +66,30 @@ body{
     display: none;
 }
 
-.secao1 h1{
+.user {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.user .user-icon {
+    font-size: 2rem;
+}
+
+.user a,
+.login a {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.user a i {
+    color: #ffffff;
+    font-size: 2.5rem;
+}
+
+.secao1 h1 {
     margin-top: 34vh;
     text-align: center;
     font-weight: 200;
@@ -82,7 +105,7 @@ body{
     color: #ffffff;
 }
 
-.secao2 h1, h3{
+.secao2 h1, h3 {
     color: #000000;
     text-align: center;
     margin-top: 30vh;
@@ -94,12 +117,12 @@ body{
     margin-top: 40vh;
 }
 
-.secao2 h3{
+.secao2 h3 {
     margin-top: 20vh;
     font-size: 1.3rem;
 }
 
-.secao1 .pesquisa{
+.secao1 .pesquisa {
     border-radius: 125px;
     border: none;
     display: flex;
@@ -111,7 +134,7 @@ body{
     color: #2D4059;
 }
 
-.circulos{
+.circulos {
     display: inline-flex;
     margin-left: 10em;
     margin-top: 5em;
@@ -125,15 +148,16 @@ body{
     text-align: center;
 }
 
-.circulos #Admissao{
+.circulos #Admissao {
     margin-left: 2.3em;
 }
 
 .secao3 {
     background-color: #2D4059;
+    color: #ffffff;
 }
 
-.secao3 h1{
+.secao3 h1 {
     text-align: center;
     margin-top: 8em;
     font-weight: 200;
@@ -147,7 +171,7 @@ body{
     margin-top: 8em;
 }
 
-.quadrados h3 { 
+.quadrados h3 {
     position: absolute;
     font-size: 1.2rem;
     text-align: center;
@@ -155,59 +179,178 @@ body{
     margin-left: 2em;
 }
 
+/* seção 4 */
 
+.secao4 h1 {
+    text-align: center;
+    margin-top: 8;
+    font-weight: 200;
+    padding-top: 3em;
+    font-size: 2em;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.cards .card {
+    flex: 0 0 calc(30% - 40px);
+    margin: 20px;
+    background-color: #233854;
+    color: #ffffff;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+.cards .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.cards .card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.cards .card p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cards .card .btn-primary {
+    background-color: #4F719D;
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    padding: 5px 10px;
+}
+
+.cards .card .btn-primary:hover {
+    background-color: #0f1e31;
+}
+
+/* seção 5 */
+.secao5 {
+    background-color: #2D4059;
+    color: aliceblue;
+}
+
+/* seção 6 */
+
+.patrocinador {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.patrocinador__icone {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.secao7 {
+    background-color: #2D4059;
+}
+
+.texto {
+    max-width: 50%;
+    padding-right: 20px;
+    margin-left: 700px;
+    margin-top: -240px;
+}
+
+.botao_ {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 700px;
+
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.vocacional{
+    
+}
 
 
 
 
 
 @media (max-width: 992px) {
-    .header{
+    .header {
         padding: 1.3rem 5%;
     }
 }
 
 @media (max-width: 768px) {
-    .icons{
+    .icons {
         display: inline-flex;
     }
 
-    #check:checked~.icons #menu-icon{
+    #check:checked~.icons #menu-icon {
         display: none;
 
     }
 
-    .icons #close-icon{
+    .icons #close-icon {
         display: none;
     }
 
-    #check:checked~.icons #close-icon{
+    #check:checked~.icons #close-icon {
         display: block;
-        
+
     }
 
-    .login{
+    .login {
         display: inline-flex;
     }
 
-    .navbar{
+    .navbar {
         position: absolute;
         top: 100%;
         left: 0;
         width: 100%;
         height: 0;
-        background: rgba(0,0,0, .1);
+        background: rgba(0, 0, 0, .1);
         backdrop-filter: blur(50px);
-        box-shadow: 0.5rem 1rem rgba(0,0,0, .1);
+        box-shadow: 0.5rem 1rem rgba(0, 0, 0, .1);
         overflow: hidden;
         transition: .3s ease;
     }
 
-    #check:checked~.navbar{
+    #check:checked~.navbar {
         height: 17.7rem;
     }
 
-    .navbar a{
+    .navbar a {
         display: block;
         font-size: 1.1rem;
         margin: 1.5rem 0;
@@ -217,13 +360,13 @@ body{
         transition: .3s ease;
     }
 
-    #check:checked~.navbar a{
+    #check:checked~.navbar a {
         transform: translateY(0);
         opacity: 1;
         transition-delay: calc(.15s * var(--i));
     }
 
-    .circulos{
+    .circulos {
         margin-left: 6em;
     }
 
