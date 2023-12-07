@@ -141,6 +141,12 @@ h3 {
     margin-top: 5em;
     cursor: pointer;
     text-align: center;
+    transition: transform 0.3s ease;
+}
+
+
+.circulos:hover {
+  transform: translateY(-10px); /* Move os círculos para cima ao passar o cursor sobre eles */
 }
 
 .circulos h1 {
@@ -320,7 +326,7 @@ a {
 }
 
 .titulo-patrocinadores {
-    font-size: 24px;
+    font-size: 35px;
     /* Tamanho do título */
     margin-bottom: 20px;
     /* Espaçamento abaixo do título */
@@ -363,6 +369,11 @@ a {
     color: #fff;
 }
 
+.textosecao7 {
+    margin-left: 30px;
+    font-size: 30px;
+}
+
 .vocacional {
     margin-top: 30px;
     margin-left: 100px;
@@ -374,6 +385,7 @@ a {
     margin-left: 700px;
     margin-top: -240px;
     color: #fff;
+    font-size: 20px;
 
 }
 
