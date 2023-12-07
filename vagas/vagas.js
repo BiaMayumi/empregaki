@@ -16,6 +16,24 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('oferecemos2').classList.toggle('oculto2');
         document.getElementById('horarios2').classList.toggle('oculto2');
     });
+
+    document.getElementById('lerMaisBtn3').addEventListener('click', function() {
+        document.getElementById('requisitosTexto3').classList.toggle('oculto3');
+        document.getElementById('oferecemos3').classList.toggle('oculto3');
+        document.getElementById('horarios3').classList.toggle('oculto3');
+    });
+
+    document.getElementById('lerMaisBtn4').addEventListener('click', function() {
+        document.getElementById('requisitosTexto4').classList.toggle('oculto4');
+        document.getElementById('oferecemos4').classList.toggle('oculto4');
+        document.getElementById('horarios4').classList.toggle('oculto4');
+    });
+
+    document.getElementById('lerMaisBtn5').addEventListener('click', function() {
+        document.getElementById('requisitosTexto5').classList.toggle('oculto5');
+        document.getElementById('oferecemos5').classList.toggle('oculto5');
+        document.getElementById('horarios5').classList.toggle('oculto5');
+    });
 });
 
     

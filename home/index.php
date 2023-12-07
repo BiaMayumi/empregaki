@@ -131,7 +131,7 @@
                     <div class="card p-4">
                         <p class="lead mb-4">"Excelente plataforma para encontrar oportunidades de emprego! Encontrei a vaga dos meus sonhos aqui e estou muito satisfeito com o suporte que recebi."</p>
                         <p class="font-weight-bold">- Joana Silva</p>
-                    </div>
+                    </div>                    
                 </div>
                 <div class="col-md-6">
                     <div class="card p-4">
