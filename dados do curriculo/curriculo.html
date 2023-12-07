@@ -109,8 +109,31 @@
             <label for="telefone">Telefone:</label>
             <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
+            <label for="estadoCivil">Estado Civil:</label>
+            <input type="text" id="estadoCivil" name="estadoCivil" required>
+
+
+            <label for="genero">Gênero:</label>
+    <select id="generoSelect" name="genero" onchange="exibirOpcaoSelecionada()">
+        <option value="Homem">Homem</option>
+        <option value="Mulher">Mulher</option>
+        <option value="Outros">Outros</option>
+    </select>
+
+    <input type="text" id="generoTexto" name="genero" readonly required>
+
+    <script>
+        function exibirOpcaoSelecionada() {
+            var select = document.getElementById("generoSelect");
+            var texto = document.getElementById("generoTexto");
+            texto.value = select.value;
+        }
+    </script>
+
+
+
+
+
 
             <label for="endereco">Endereço:</label>
             <input type="text" id="endereco" name="endereco" required>
@@ -126,7 +149,7 @@
             <label for="objetivo">Objetivo Profissional ou Resumo:</label>
             <textarea cols="50" rows="10" id="objetivo" name="objetivo" required></textarea>
 
-            <label for="Adicionais">Adicionais:</label>
+            <label for="adicionais">Adicionais:</label>
             <textarea cols="30" rows="5" id="adicionais" name="adicionais" required></textarea>
 
             <button type="submit">Enviar</button><br><br><br>
