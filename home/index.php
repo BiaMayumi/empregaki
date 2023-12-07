@@ -192,7 +192,7 @@
     </section>
 
     <!-- Seção 7 -->
-    <section class="container">
+    <section class="secao7">
         <h1>Não sabe por onde começar?</h1>
         <img src="img/vocacional.png" class="vocacional" alt=":/">
         <div class="texto">
