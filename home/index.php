@@ -78,12 +78,13 @@
         </div>
 
         <a href="../vagas/vagas.html"><button class="button">
-            Ver mais
-         <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
-         <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
-        </svg>
-</button></a>
+                Ver mais
+                <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                    <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+                </svg>
+            </button></a>
     </section>
+    
     <!-- Seção 4 -->
     <section class="secao4">
         <h1>Nossos artigos</h1>
@@ -142,54 +143,37 @@
     </section>
 
     <!-- Seção 6 -->
-    <section class="secao6 text-center py-5">
-        <div class="container">
-            <h2>Nossos Patrocinadores</h2>
-            <div class="row justify-content-center align-items-center mt-4">
-                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
-                    <div class="patrocinador">
-                        <img src="img/vw.png" class="patrocinador__icone" alt="Volkswagen">
-                    </div>
+    <section class="patrocinadores">
+        <h2 class="titulo-patrocinadores">Nossos Patrocinadores</h2>
+        <div class="logos-patrocinadores">
+            <div class="linha-patrocinadores">
+                <div class="patrocinador">
+                    <img src="img/vw.png" class="patrocinador__icone" alt="Volkswagen">
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
-                    <div class="patrocinador">
-                        <img src="img/oboticario.png" class="patrocinador__icone" alt="O Boticário">
-                    </div>
+                <div class="patrocinador">
+                    <img src="img/oboticario.png" class="patrocinador__icone" alt="O Boticário">
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
-                    <div class="patrocinador">
-                        <img src="img/tim.png" class="patrocinador__icone" alt="TIM">
-                    </div>
+                <div class="patrocinador">
+                    <img src="img/tim.png" class="patrocinador__icone" alt="TIM">
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
-                    <div class="patrocinador">
-                        <img src="img/ford.png" class="patrocinador__icone" alt="Ford">
-                    </div>
+                <div class="patrocinador">
+                    <img src="img/ford.png" class="patrocinador__icone" alt="Ford">
                 </div>
-                <!-- Novas colunas para os novos patrocinadores -->
-                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
-                    <div class="patrocinador">
-                        <img src="img/indeed.png" class="patrocinador__icone" alt="indeed">
-                    </div>
+                <div class="patrocinador">
+                    <img src="img/indeed.png" class="patrocinador__icone" alt="indeed">
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
-                    <div class="patrocinador">
-                        <img src="img/dell.png" class="patrocinador__icone" alt="dell">
-                    </div>
+                <div class="patrocinador">
+                    <img src="img/dell.png" class="patrocinador__icone" alt="dell">
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
-                    <div class="patrocinador">
-                        <img src="img/natura.png" class="patrocinador__icone" alt="natura">
-                    </div>
+                <div class="patrocinador">
+                    <img src="img/natura.png" class="patrocinador__icone" alt="natura">
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 mb-4">
-                    <div class="patrocinador">
-                        <img src="img/cna.png" class="patrocinador__icone" alt="leroy merlin">
-                    </div>
+                <div class="patrocinador">
+                    <img src="img/cna.png" class="patrocinador__icone" alt="leroy merlin">
                 </div>
             </div>
-        </div>
     </section>
+
 
     <!-- Seção 7 -->
     <section class="secao7">
@@ -199,13 +183,9 @@
             <p>Preparamos um teste que indica a profissão que mais combina com suas características.</p>
             <p>É super simples e rápido: basta responder a algumas perguntinhas, que você vai receber os resultados.</p>
         </div>
-<<<<<<< HEAD
-        <button class="botao_">Quero descobrir</button>
-        
-=======
-        <a href="../teste-vocacional/index.html"><button class="botao_">Quero descobrir</button></a>
->>>>>>> 4f3ae9a06e57b73bf4a3a601df7a997803ebcfca
+        <a href="../formulariotv/testev.html"><button class="botao_">Quero descobrir</button></a>
     </section>
 
 </body>
+
 </html>
