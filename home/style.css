@@ -89,6 +89,8 @@ body {
     font-size: 2.5rem;
 }
 
+/* Seção 1   */
+
 .secao1 h1 {
     margin-top: 34vh;
     text-align: center;
@@ -114,6 +116,7 @@ h3 {
     font-weight: 200;
 }
 
+/* Seção 2 */
 .secao2 h1 {
     margin-top: 40vh;
 }
@@ -159,9 +162,11 @@ h3 {
     margin-left: 2.3em;
 }
 
+/* Seção 3 */
 .secao3 {
     background-color: #2D4059;
     color: #ffffff;
+    height: 55em;
 }
 
 .secao3 h1 {
@@ -417,6 +422,22 @@ a {
 @media (max-width: 768px) {
     .icons {
         display: inline-flex;
+    }
+
+    body{
+        background: #4F719D;
+    }
+
+    .circulos {
+        padding-top: 5em;
+    }
+
+    .user-icon{
+        padding-right: 1em;
+    }
+
+    .secao3 {
+        height: 132em;
     }
 
     #check:checked~.icons #menu-icon {
