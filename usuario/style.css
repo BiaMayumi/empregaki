@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+body{
+
+  font-family: 'Poppins' , sans-serif;
+
+}
+
+form{
+  float: right;
+  font-family: 'Poppins' , sans-serif;
+  width: 500px;
+  margin-top: -490px;
+
+}
+
+/* Estilos para os inputs */
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="number"],
+select {
+    border-radius: 15px; /* Arredonda os cantos dos inputs */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    padding: 6px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 250px;
+}
+
+ .mulher{
+
+  margin-left : 125px;
+  margin-top: -800;
+  height: 200px;
+
+ }
+
+ h4{
+
+  margin-left: 100px;
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 500;
+ }
+
+ h6{
+
+  margin-left: 100px;
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 400;
+ }
+
+ h2{
+
+  margin-left: 160px;
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 400;
+ }
+
+ h1{
+
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 400;
+  margin-left: 100px;
+ }
+
+ .semi-circle {
+    width: 550px; /* Largura do semi-círculo */
+    height: 550px; /* Altura do semi-círculo */
+    background-color: #073e63; /* Cor do semi-círculo */
+    border-radius: 50%; /* Bordas arredondadas para criar o círculo */
+    position: absolute; /* Posicionamento absoluto */
+    top: 100px; /* Posição vertical (para alinhar no topo) */
+    right: -250px; /* Posição horizontal (para alinhar à direita) */
+    z-index: -1; /* Define a ordem de empilhamento para trás */
+}
+
+ .input2{
+
+  margin-left: 100px;
+  width: 300px;
+
+}
+
+.user-data img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.genero{
+    padding-left: 8em;
+}
+
+.generos{
+    display: inline-flex;
+    margin-left: 9%;
+    border-radius: 10px;
+    border: none;
+    background: #20487C;
+    color: #fff;
+    padding: 10px 10px;
+    margin-top: 2em;
+    cursor: pointer;
+}
+
+#homem{
+    margin-right: -5em;
+}
+
+label[for="idade"]{
+
+    margin-right: 140px;
+  
+  }
+  
+  label[for="rede_social"]{
+  
+    margin-right: 93px;
+  
+  }
+  
+  label[for="email"]{
+  
+    margin-right: 133px;
+  
+  }
+  
+  label[for="genero"]{
+  
+    margin-right: 127px;
+  
+  }
+  
+  label[for="cidade"]{
+  
+    margin-right: 127px;
+  
+  }
+  
+  label[for="telefone"]{
+  
+    margin-right: 23px;
+  
+  }
+  
+  label[for="data_nascimento"]{
+  
+    margin-right: 19px;
+  
+  }
+  
+  label[for="nome"]{
+  
+    margin-right: 133px;
+  
+  }

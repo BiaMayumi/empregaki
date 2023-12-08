@@ -152,3 +152,38 @@
 </body>
 
 </html>
+
+<?php
+    // Conexão com o banco de dados
+    $servername = "localhost";
+    $username = "root";
+    $password = "root";
+    $dbname = "EmpregakiCurriculo";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    if ($conn->connect_error) {
+        die("Conexão falhou: " . $conn->connect_error);
+    }
+
+    $NomeCompleto = $_POST["nome"];
+    $Telefone = $_POST["telefone"];
+    $EstadoCivil = $_POST["estadoCivil"];
+    $Genero = $_POST["genero"];
+    $Endereco = $_POST["endereco"];
+    $Objetivo = $_POST["objetivo"];
+    $Adicionais = $_POST["adicionais"];
+
+// Inserir dados no banco de dados
+$sql = "INSERT INTO Clientes (nome, telefone, estadoCivil, genero, endereco, objetivo, adicionais) VALUES ('$NomeCompleto', '$Telefone', '$EstadoCivil', '$Genero', '$Endereco', '$Objetivo', '$Adicionais')";
+
+    if ($conn->query($sql) === TRUE) {
+        // Redirecionar para a página de usuário
+        header("Location: usuario.php");
+        exit();
+    } else {
+        echo "Erro ao inserir dados: " . $conn->error;
+    }
+
+    $conn->close();
+?>

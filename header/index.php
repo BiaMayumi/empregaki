@@ -23,7 +23,7 @@
             <a href="../dados do curriculo/curriculo.html" style="--i:2;">CURRÍCULO</a>
         </nav>
         <div class="user">
-            <a href="#" class="user-icon"><i class='bx bx-user'></i></a>
+            <a href="../usuario/index.php" class="user-icon"><i class='bx bx-user'></i></a>
             <a href="../login/index.php" class="login"><i class='bx bxs-log-in'></i></a>
         </div>
     </header>
