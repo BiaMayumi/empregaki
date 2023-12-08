@@ -83,9 +83,9 @@
                     <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
                 </svg>
             </button></a>
-            <br><br>
+        <br><br>
     </section>
-    
+
     <!-- Seção 4 -->
     <section class="secao4">
         <h1>Nossos artigos</h1>
@@ -97,7 +97,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Como montar um bom currículo</h5> <br>
                     <p class="card-text">Você precisa pensar no conceito de marketing pessoal para aplicar ao seu currículo. Essa é a essência do que você precisa dominar, já que está preparando seu currículo com a finalidade de atrair e convencer um potencial empregador.</p>
-                    <a href="#" class="btn btn-primary">Ler Mais</a>
+                    <a href="../artigo/index.php" class="btn btn-primary">Ler Mais</a>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@
                 <div class="card-body">
                     <h5 class="card-title">As tendências do mercado do trabalho</h5> <br>
                     <p class="card-text">A automação e a inteligência artificial, o trabalho remoto e freelance, a economia digital e o comércio eletrônico bem como a sustentabilidade são algumas das principais tendências que moldam o mercado de trabalho atual.</p>
-                    <a href="#" class="btn btn-primary">Ler Mais</a>
+                    <a href="../artigo/index2.php" class="btn btn-primary">Ler Mais</a>
                 </div>
             </div>
 
@@ -115,7 +115,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Estratégias para entrevista de emprego</h5> <br>
                     <p class="card-text">A habilidade de gerenciar o estresse, a postura, o tom de voz, a oratória e a forma de responder com calma a perguntas difíceis é outra faceta crucial do comportamento avaliado durante uma entrevista de emprego.</p>
-                    <a href="#" class="btn btn-primary">Ler Mais</a>
+                    <a href="../artigo/index3.php" class="btn btn-primary">Ler Mais</a>
                 </div>
             </div>
         </div>
@@ -131,7 +131,7 @@
                     <div class="card p-4">
                         <p class="lead mb-4">"Excelente plataforma para encontrar oportunidades de emprego! Encontrei a vaga dos meus sonhos aqui e estou muito satisfeito com o suporte que recebi."</p>
                         <p class="font-weight-bold">- Joana Silva</p>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card p-4">
@@ -179,8 +179,8 @@
 
     <!-- Seção 7 -->
     <section class="secao7">
-        <br>  
-        <div class="textosecao7">Não sabe por onde começar?</div> 
+        <br>
+        <div class="textosecao7">Não sabe por onde começar?</div>
 
         <img src="img/vocacional.png" class="vocacional" alt=":/">
         <div class="texto">
@@ -191,6 +191,14 @@
         <a href="../formulariotv/testev.html"><button class="botao_">Quero descobrir</button></a>
         <br><br><br><br>
     </section>
+
+    <!-- footer -->
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Todos os direitos reservados:
+            <a class="text-body" href="https://Empregaki.com/">Empregaki.</a>
+        </div>
+    </footer>
 
 </body>
 
