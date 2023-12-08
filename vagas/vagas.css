@@ -155,4 +155,10 @@ h1 {
     display: none;
 }
 
+.img1 {
+    /* float: right;    */
+    margin-top: -4.9%;
+    margin-left: 95%;
+}
+
 
