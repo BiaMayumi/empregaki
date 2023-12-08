@@ -14,48 +14,23 @@
 <img src="img/logo.png" alt=""  class="logo">
 
 <div class="quadrado-externo">
-        <!-- Quadrado Interno -->
-        <div class="quadrado-interno"></div>
-    </div>
 
-<h1 class="titulo">Como montar um bom currículo?</h1>
-
-<h3 class="texto1">
-    Você precisa pensar no conceito de marketing pessoal para aplicar a seu currículo.<br>
-    Essa é essência do que Você precisa pensar no conceito de marketing pessoal para <br>
-    aplicar a seu currículo. Essa é essência do que você precisa dominar,já que você <br>
-    está preparandoum seu currículo com a finalidade de atrair e convencer um potencial<br>
-    empregador a convocar você uma entrevista, fazendo com que ele tenha interesse em <br>
-    conhecer a pessoa por trás do papel e saber como você pode assumir o cargo que está<br>
-    sendo oferecido, com um bom aproveitamento para a empresa e para você. <br><br><br>
-
-    Estrutura: O visual do currículo é a primeira coisa que causa impacto em quem o <br>
-    recebe, pois a imagem já é processada no cérebro antes que a pessoa tenha tempo de<br>
-    ler o texto ou reconhecer algum nome de empresa ou escola que chame a atenção<br>
-    no conteúdo. Então, o formato do currículo é muito importante porque o leitor<br>
-    subconscientemente processa a imagem primeiro. Seja qual for a finalidade ou <br>
-    tipo de currículo que você deseja elaborar, ele precisa ser bem estruturado, de<br>
-    fácil leitura e padronizado. Isso vale tanto para quem está entrando no mercado <br>
-    de trabalho agora quanto para um profissional bem qualificado. No momento de <br>
-    apresentar a sua candidatura aos representantes de RH de uma empresa, é <br>
-    fundamental que a primeira impressão que o seu currículo cause é de que você<br>
-    tem competência e organização. <br><br><Br>
-
-    Margens: De acordo com Associação Brasileira de Normas Técnicas (ABNT).<br>
-     As margens devem conter 3cm no lado superior e esquerdo, e 2cm para o <br>
-     lado direito e inferior da página. <br><br><br>
-
-     Alinhamento: O alinhamento do currículo é um processo bastante simples,<br>
-      mas quase sempre deixados de lado- porque normalmente já fica do jeito <br>
-      que a maioria do mundo ocidental está acostumada a ler. Cabeçalhos,<br>
-       níveis de experiência, informações educacionais e habilidades adicionais<br> 
-       ou qualquer outra seção são alinhadas à esquerda do documento...
+<div class="quadrado-externo">
 
 
+        <div class="quadrado-interno">
 
-</h3>
+            <img src="img/pexels-cottonbro-5989933.webp" alt="" class="img6">
 
-  
+            <h3 class="texto1">
+            Você precisa pensar no conceito de marketing pessoal para aplicar a seu currículo. Essa é essência do que você precisa dominar, já que você está preparando um seu currículo com a finalidade de atrair e convencer um potencial empregador a convocar você uma entrevista, fazendo com que ele tenha interesse em conhecer a pessoa por trás do papel e saber como você pode assumir o cargo que está sendo oferecido, com um bom aproveitamento para a empresa e para você.<br><br><br>
+
+            Estrutura<br> O visual do currículo é a primeira coisa que causa impacto em quem o recebe, pois a imagem já é processada no cérebro antes que a pessoa tenha tempo de ler o texto ou reconhecer algum nome de empresa ou escola que chame a atenção no conteúdo. Então, o formato do currículo é muito importante porque o leitor subconscientemente processa a imagem primeiro. Seja qual for a finalidade ou tipo de currículo que você deseja elaborar, ele precisa ser bem estruturado, de fácil leitura e padronizado. Isso vale tanto para quem está entrando no mercado de trabalho agora quanto para um profissional bem qualificado. No momento de apresentar a sua candidatura aos representantes de RH de uma empresa, é fundamental que a primeira impressão que o seu currículo cause é de que você tem competência e organização. <br><br><br>
+
+            Margens<br>De acordo com Associação Brasileira de Normas Técnicas (ABNT). As margens devem conter 3cm no lado superior e esquerdo, e 2cm para o lado direito e inferior da página. <br><br><br>
+
+
+            Alinhamento<br>O alinhamento do currículo é um processo bastante simples, mas quase sempre deixados de lado- porque normalmente já fica do jeito que a maioria do mundo ocidental está acostumada a ler. Cabeçalhos, níveis de experiência, informações educacionais e habilidades adicionais ou qualquer outra seção são alinhadas à esquerda do documento...
 </h3>
 
 
@@ -84,23 +59,37 @@
     </div>
 
 
-    <h3 class="texto2">Um bom currículo é aquele que deixa o menor número de dúvidas possível, mas desperta <br>
-     interesse do recrutador!<br><br><br>
+    <h3 class="texto2">Um bom currículo é aquele que deixa o menor número de dúvidas possível, mas desperta 
+     interesse do recrutador!
 
-Nesta seção cabe um número variado de informações: certificações de cursos técnicos,<br>
-prêmios por reconhecimento, trabalho voluntário, informações sobre habilitação de <br>
-motorista, se for o caso. Ou até mesmo, se a oportunidade de trabalho for em outra <br>
-cidade, é nesse campo que você escreve sobre sua disponibilidade de mudança.<br><br><br>
+Nesta seção cabe um número variado de informações: certificações de cursos técnicos,
+prêmios por reconhecimento, trabalho voluntário, informações sobre habilitação de 
+motorista, se for o caso. Ou até mesmo, se a oportunidade de trabalho for em outra 
+cidade, é nesse campo que você escreve sobre sua disponibilidade de mudança.<br><br>
 
-Cursos de idioma também entram aqui! Então se você possui algum, é bom especificar também <br>
-o seu nível de proficiência. Mas caso você não tenha, sem problemas. É melhor ser<br>
- sincera, afinal, mentiras em um currículo são facilmente detectadas na hora da entrevista.<br><br><br>
+Cursos de idioma também entram aqui! Então se você possui algum, é bom especificar também
+o seu nível de proficiência. Mas caso você não tenha, sem problemas. É melhor ser
+ sincera, afinal, mentiras em um currículo são facilmente detectadas na hora da entrevista.<br><br>
 
-Não coloque coisas apenas para aumentar o tamanho do currículo. Não há nada de errado com <br>
-um currículo sucinto! Já um currículo mentiroso pode te custar a vaga e a credibilidade!<br>
+Não coloque coisas apenas para aumentar o tamanho do currículo. Não há nada de errado com
+um currículo sucinto! Já um currículo mentiroso pode te custar a vaga e a credibilidade!<br><br>
   
 
+
+        </div>
+    </div>
+    </div>
+
+<h1 class="titulo">Como montar um bom currículo?</h1>
+
+
+
+  
 </h3>
+
+
+
+
 
 
 
