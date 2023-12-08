@@ -23,25 +23,29 @@
 <br><br>
   <form action="processa_formulario.php" method="post">
   <label for="nome">Nome:</label>
-  <input type="text" id="nome" name="nome" required><br><br>
-  
+  <br>
+  <input type="text" id="nome" name="nome" required>
+  <br>
   <label for="telefone">Telefone:</label>
+  <br>
   <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
-  <br><br>
+  <br>
   <label for="estadoCivil">Estado Civil:</label>
+  <br>
   <input type="text" id="estadoCivil" name="estadoCivil" required>
-  <br><br>
+  <br>
   <label for="genero">Gênero:</label>
+  <br>
   <select id="genero" name="genero">
     <option value="masculino">Masculino</option>
     <option value="feminino">Feminino</option>
     <option value="outro">Outro</option>
   </select>
-  <br><br>
-  
+  <br>
   <label for="endereco">Endereço:</label>
+  <br>
   <input type="text" id="endereco" name="endereco" required>
-  <br><br>
+  <br>
   <label for="objetivo">Objetivo Profissional ou Resumo:</label>
   <br>
   <textarea cols="50" rows="10" id="objetivo" name="objetivo" required></textarea>
