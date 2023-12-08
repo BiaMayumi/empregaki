@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Login</title>
+    <title>Usuário</title>
 </head>
 <a href="../home/index.php"><img src="../home/img/logo.png" alt="Descrição da imagem">
   </a>
@@ -71,35 +71,3 @@
 </body>
 </html>
 
-<?php
-    // Conexão com o banco de dados
-    $servername = "localhost";
-    $username = "root";
-    $password = "root";
-    $dbname = "empregaki";
-
-    $conn = new mysqli($localhost, $root, $root, $empregaki);
-
-    if ($conn->connect_error) {
-        die("Conexão falhou: " . $conn->connect_error);
-    }
-
-    // Consulta para obter os dados do currículo
-    $sql = "SELECT * FROM curriculo ORDER BY id DESC LIMIT 1";
-    $result = $conn->query($sql);
-
-    if ($result->num_rows > 0) {
-        $row = $result->fetch_assoc();
-        echo "<h2>Nome Completo: " . $row["nome"] . "</h2>";
-        echo "<p>Telefone: " . $row["telefone"] . "</p>";
-        echo "<p>Estado Civil: " . $row["estadoCivil"] . "</p>";
-        echo "<p>Endereço: " . $row["endereco"] . "</p>";
-	echo "<p>Objetivo: " . $row["objetivo"] . "</p>";
-	echo "<p>Adicionais: " . $row["adicionais"] . "</p>";
-	
-    } else {
-        echo "Nenhum dado do currículo encontrado.";
-    }
-
-    $conn->close();
-    ?>
