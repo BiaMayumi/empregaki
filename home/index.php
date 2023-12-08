@@ -83,9 +83,9 @@
                     <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
                 </svg>
             </button></a>
-            <br><br>
+        <br><br>
     </section>
-    
+
     <!-- Seção 4 -->
     <section class="secao4">
         <h1>Nossos artigos</h1>
@@ -131,7 +131,7 @@
                     <div class="card p-4">
                         <p class="lead mb-4">"Excelente plataforma para encontrar oportunidades de emprego! Encontrei a vaga dos meus sonhos aqui e estou muito satisfeito com o suporte que recebi."</p>
                         <p class="font-weight-bold">- Joana Silva</p>
-                    </div>                    
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="card p-4">
@@ -179,8 +179,8 @@
 
     <!-- Seção 7 -->
     <section class="secao7">
-        <br>  
-        <div class="textosecao7">Não sabe por onde começar?</div> 
+        <br>
+        <div class="textosecao7">Não sabe por onde começar?</div>
 
         <img src="img/vocacional.png" class="vocacional" alt=":/">
         <div class="texto">
@@ -191,6 +191,14 @@
         <a href="../formulariotv/testev.html"><button class="botao_">Quero descobrir</button></a>
         <br><br><br><br>
     </section>
+
+    <!-- footer -->
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2023 Todos os direitos reservados:
+            <a class="text-body" href="https://Empregaki.com/">Empregaki.</a>
+        </div>
+    </footer>
 
 </body>
 
