@@ -10,7 +10,10 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #2D4059;
+            color: #fff;
+
+
         }
 
         .container {
@@ -28,7 +31,7 @@
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            background: #4F719D;
+            background: #fff;
             height: 65px;
             padding-left: 20px;
         }
@@ -64,24 +67,25 @@
         }
 
         button {
-            background-color: #333;
+            background-color: #ffffff;
             color: #fff;
             padding: 15px 30px;
             border: none;
             border-radius: 50px;
             cursor: pointer;
             margin-left: 585px;
+            color: #000;
         }
 
         h1 {
             text-align: center;
-            color: #333;
+            color: #fff;
         }
 
         nav {
             height: 65px;
             flex-shrink: 0;
-            background: #4F719D;
+            background: white;
             text-align: center;
             justify-content: center;
         }
@@ -117,6 +121,7 @@
     <select id="generoSelect" name="genero" onchange="exibirOpcaoSelecionada()">
         <option value="Homem">Homem</option>
         <option value="Mulher">Mulher</option>
+        <option value="Indefinido">Prefiro não dizer</option>
         <option value="Outros">Outros</option>
     </select>
 
@@ -131,20 +136,8 @@
     </script>
 
 
-
-
-
-
             <label for="endereco">Endereço:</label>
             <input type="text" id="endereco" name="endereco" required>
-
-            <label for="genero">Gênero:</label>
-            <select id="genero" name="genero" required>
-                <option value="Masculino">Masculino</option>
-                <option value="Feminino">Feminino</option>
-                <option value="Outro">Outro</option>
-                <option value="Prefiro não dizer">Prefiro não dizer</option>
-            </select>
 
             <label for="objetivo">Objetivo Profissional ou Resumo:</label>
             <textarea cols="50" rows="10" id="objetivo" name="objetivo" required></textarea>
@@ -152,7 +145,7 @@
             <label for="adicionais">Adicionais:</label>
             <textarea cols="30" rows="5" id="adicionais" name="adicionais" required></textarea>
 
-            <button type="submit">Enviar</button><br><br><br>
+            <a href="../formulariotv/agradecimento.html"><button class="submit">Enviar</button></a>
 
         </form>
     </div>
