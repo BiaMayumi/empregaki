@@ -97,7 +97,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Como montar um bom currículo</h5> <br>
                     <p class="card-text">Você precisa pensar no conceito de marketing pessoal para aplicar ao seu currículo. Essa é a essência do que você precisa dominar, já que está preparando seu currículo com a finalidade de atrair e convencer um potencial empregador.</p>
-                    <a href="artigo/index.php" class="btn btn-primary">Ler Mais</a>
+                    <a href="../artigo/index.php" class="btn btn-primary">Ler Mais</a>
                 </div>
             </div>
 
@@ -106,7 +106,7 @@
                 <div class="card-body">
                     <h5 class="card-title">As tendências do mercado do trabalho</h5> <br>
                     <p class="card-text">A automação e a inteligência artificial, o trabalho remoto e freelance, a economia digital e o comércio eletrônico bem como a sustentabilidade são algumas das principais tendências que moldam o mercado de trabalho atual.</p>
-                    <a href="#" class="btn btn-primary">Ler Mais</a>
+                    <a href="../artigo/index2.php" class="btn btn-primary">Ler Mais</a>
                 </div>
             </div>
 
@@ -115,7 +115,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Estratégias para entrevista de emprego</h5> <br>
                     <p class="card-text">A habilidade de gerenciar o estresse, a postura, o tom de voz, a oratória e a forma de responder com calma a perguntas difíceis é outra faceta crucial do comportamento avaliado durante uma entrevista de emprego.</p>
-                    <a href="#" class="btn btn-primary">Ler Mais</a>
+                    <a href="../artigo/index3.php" class="btn btn-primary">Ler Mais</a>
                 </div>
             </div>
         </div>
