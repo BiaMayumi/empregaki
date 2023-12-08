@@ -18,7 +18,10 @@ body {
 
 
 
+.negrito{
+  font-weight: bold;
 
+}
 
 .logo {
     width: em;

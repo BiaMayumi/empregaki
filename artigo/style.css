@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 *{
@@ -38,7 +39,7 @@ body {
 /* Estilo para o quadrado interno */
 .quadrado-interno {
     width: 800px; /* Largura do quadrado interno */
-    height: 1900px; /* Altura do quadrado interno */
+    height: 2300px; /* Altura do quadrado interno */
     background-color: #ffffff; /* Cor de fundo do quadrado interno */
     position: absolute;
     top: 50%; /* Posiciona o quadrado interno no centro verticalmente */
@@ -69,10 +70,10 @@ body {
     color: #000000;
     text-align: center;
     position: absolute;
-    top: 540px;
-    left: 280px;
+    top: 480px;
+    left: 20px;
     text-align: justify; /* Adiciona justificação ao texto */
-    margin: 5; /* Remove a margem padrão */
+    margin: 20; /* Remove a margem padrão */
     
  
 }
@@ -84,8 +85,8 @@ body {
     color: #000000;
     text-align: center;
     position: absolute;
-    top: 1550px;
-    left: 280px;
+    top: 1500px;
+    left: 20px;
     text-align: justify; /* Adiciona justificação ao texto */
     margin: 5; /* Remove a margem padrão */
     
@@ -152,7 +153,7 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
     font-family: Arial, Helvetica, sans-serif;
-    left: 300px;
+    left: 70px;
     top: 1200px;
   }
   
@@ -253,8 +254,8 @@ body {
     overflow: hidden;
     background: linear-gradient(to bottom, #c3e6ec, #a7d1d9);
     font-family: Arial, Helvetica, sans-serif;
-    left: 650px;
-    top: 980px;
+    left: 450px;
+    top:980px;
   }
   
   .card2:before {
@@ -289,10 +290,10 @@ body {
 
 .img6{
     position: absolute;
-    top: 150px;
-    width: 50%;
-    height: 60%;
+    top: 70px;
+    width: 80%;
+    height: 15%;
     border-radius: 4px;
-    left: 300px;
+    left: 60px;
 }
 
