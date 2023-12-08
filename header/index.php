@@ -20,7 +20,7 @@
         <nav class="navbar">
             <a href="../home/index.php" style="--i:0;" id="scrollToUpButton">HOME</a>
             <a href="#" style="--i:1;" id="scrollToVagasButton">VAGAS</a>
-            <a href="../dados do curriculo/curriculo.html" style="--i:2;">CURRÍCULO</a>
+            <a href="../dados do curriculo/curriculo.php" style="--i:2;">CURRÍCULO</a>
         </nav>
         <div class="user">
             <a href="../usuario/index.php" class="user-icon"><i class='bx bx-user'></i></a>

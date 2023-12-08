@@ -21,6 +21,7 @@
   <br>
 <br>
 <br><br>
+
   <form action="processa_formulario.php" method="post">
   <label for="nome">Nome:</label>
   <br>
@@ -34,7 +35,7 @@
   <br>
   <input type="text" id="estadoCivil" name="estadoCivil" required>
   <br>
-  <label for="genero">Gênero:</label>
+  <label for="genero" class="genero label-fix-size">Gênero:</label>
   <br>
   <select id="genero" name="genero">
     <option value="masculino">Masculino</option>
