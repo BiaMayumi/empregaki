@@ -181,7 +181,19 @@ h3 {
     display: inline-flex;
     margin-left: 7em;
     margin-top: 3em;
+    cursor: pointer;
 }
+
+.quadrados {
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.quadrados:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
 
 .quadrados h3 {
     position: absolute;

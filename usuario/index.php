@@ -21,37 +21,34 @@
   <br>
 <br>
 <br><br>
-<h4>Biografia</h4>
-<br><br>
-<h4>Qualidades</h4>
   <form action="processa_formulario.php" method="post">
   <label for="nome">Nome:</label>
   <input type="text" id="nome" name="nome" required><br><br>
   
-  <label for="data_nascimento">Data de Nascimento:</label>
-  <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
-  
-  <label for="telefone">Número de Telefone:</label>
-  <input type="tel" id="telefone" name="telefone" required><br><br>
-  
-  <label for="cidade">Cidade:</label>
-  <input type="text" id="cidade" name="cidade" required><br><br>
-  
+  <label for="telefone">Telefone:</label>
+  <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
+  <br><br>
+  <label for="estadoCivil">Estado Civil:</label>
+  <input type="text" id="estadoCivil" name="estadoCivil" required>
+  <br><br>
   <label for="genero">Gênero:</label>
   <select id="genero" name="genero">
     <option value="masculino">Masculino</option>
     <option value="feminino">Feminino</option>
     <option value="outro">Outro</option>
-  </select><br><br>
+  </select>
+  <br><br>
   
-  <label for="email">E-mail:</label>
-  <input type="email" id="email" name="email" required><br><br>
-  
-  <label for="rede_social">Rede Social:</label>
-  <input type="text" id="rede_social" name="rede_social"><br><br>
-  
-  <label for="idade">Idade:</label>
-  <input type="number" id="idade" name="idade" required><br><br>
+  <label for="endereco">Endereço:</label>
+  <input type="text" id="endereco" name="endereco" required>
+  <br><br>
+  <label for="objetivo">Objetivo Profissional ou Resumo:</label>
+  <br>
+  <textarea cols="50" rows="10" id="objetivo" name="objetivo" required></textarea>
+  <br><br>
+  <label for="adicionais">Adicionais:</label>
+  <br>
+  <textarea cols="30" rows="5" id="adicionais" name="adicionais" required></textarea>
 </form>
 <!-- Div para o semi-círculo -->
 <div class="semi-circle"></div>
