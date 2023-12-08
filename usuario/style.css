@@ -65,6 +65,17 @@ select {
   margin-left: 100px;
  }
 
+ .semi-circle {
+    width: 550px; /* Largura do semi-círculo */
+    height: 550px; /* Altura do semi-círculo */
+    background-color: #073e63; /* Cor do semi-círculo */
+    border-radius: 50%; /* Bordas arredondadas para criar o círculo */
+    position: absolute; /* Posicionamento absoluto */
+    top: 100px; /* Posição vertical (para alinhar no topo) */
+    right: -250px; /* Posição horizontal (para alinhar à direita) */
+    z-index: -1; /* Define a ordem de empilhamento para trás */
+}
+
  .input2{
 
   margin-left: 100px;
@@ -98,3 +109,51 @@ select {
 #homem{
     margin-right: -5em;
 }
+
+label[for="idade"]{
+
+    margin-right: 140px;
+  
+  }
+  
+  label[for="rede_social"]{
+  
+    margin-right: 93px;
+  
+  }
+  
+  label[for="email"]{
+  
+    margin-right: 133px;
+  
+  }
+  
+  label[for="genero"]{
+  
+    margin-right: 127px;
+  
+  }
+  
+  label[for="cidade"]{
+  
+    margin-right: 127px;
+  
+  }
+  
+  label[for="telefone"]{
+  
+    margin-right: 23px;
+  
+  }
+  
+  label[for="data_nascimento"]{
+  
+    margin-right: 19px;
+  
+  }
+  
+  label[for="nome"]{
+  
+    margin-right: 133px;
+  
+  }

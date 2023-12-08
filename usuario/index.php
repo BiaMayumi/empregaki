@@ -9,7 +9,7 @@
 <a href="../home/index.php"><img src="../home/img/logo.png" alt="Descrição da imagem">
   </a>
 <body><br><br>
-  <h1>Perfil de Usuário</h1><br><br>
+  <h1>Perfil de Usuário</h1><br>
   <div id="user_data">
     <p><img id="avatar" src="img/usermasc.png" alt="Avatar"></p>
 </div>
@@ -20,6 +20,7 @@
     <br><br>
   <br>
 <br>
+<br><br>
 <h4>Biografia</h4>
 <br><br>
 <h4>Qualidades</h4>
@@ -52,6 +53,8 @@
   <label for="idade">Idade:</label>
   <input type="number" id="idade" name="idade" required><br><br>
 </form>
+<!-- Div para o semi-círculo -->
+<div class="semi-circle"></div>
 
 <script>
  function changeGender(gender) {
@@ -64,7 +67,6 @@
                 avatarElement.src = 'img/userfeminino' + randomIndex + '.png';
             }
         }
-</script>
 </script>
 </body>
 </html>
