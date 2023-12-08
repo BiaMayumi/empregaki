@@ -131,27 +131,7 @@ h1 {
         transform: scale(0.95);
        }
     
-.oculto {
-    display: none;
-}
-
-.oculto1 {
-    display: none;
-}
-
-.oculto2 {
-    display: none;
-}
-
-.oculto3 {
-    display: none;
-}
-
-.oculto4 {
-    display: none;
-}
-
-.oculto5 {
+.oculto , .oculto1 , .oculto2 , .oculto3 , .oculto4 , .oculto5 {
     display: none;
 }
 
@@ -159,6 +139,14 @@ h1 {
     /* float: right;    */
     margin-top: -4.9%;
     margin-left: 95%;
+}
+
+.lerMaisBtn , .lerMaisBtn1 , .lerMaisBtn2 , .lerMaisBtn3 , .lerMaisBtn4 , .lerMaisBtn5, .lerMenosBtn{
+    border: none;
+    background: none;
+    color: rgb(135, 135, 135);
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
