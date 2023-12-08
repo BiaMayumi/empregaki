@@ -128,53 +128,6 @@ h1 {
   margin-right: -5em;
 }
 
-label[for="idade"] {
-
-  margin-right: 140px;
-
-}
-
-label[for="rede_social"] {
-
-  margin-right: 93px;
-
-}
-
-label[for="email"] {
-
-  margin-right: 133px;
-
-}
-
-label[for="genero"] {
-
-  margin-right: 127px;
-
-}
-
-label[for="cidade"] {
-
-  margin-right: 127px;
-
-}
-
-label[for="telefone"] {
-
-  margin-right: 23px;
-
-}
-
-label[for="data_nascimento"] {
-
-  margin-right: 19px;
-
-}
-
-label[for="nome"] {
-
-  margin-right: 133px;
-
-}
 
 #objetivo,
 #adicionais {
@@ -189,5 +142,5 @@ label[for="nome"] {
   padding: 10px;
   resize: none;
   outline: none;
-  width: 100%;
+  width: 60%;
 }
