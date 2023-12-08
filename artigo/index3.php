@@ -14,93 +14,93 @@
 <img src="img/logo.png" alt=""  class="logo">
 
 <div class="quadrado-externo">
-        <!-- Quadrado Interno -->
-        <div class="quadrado-interno"></div>
+
+<div class="quadrado-externo">
+
+
+        <div class="quadrado-interno">
+
+            <img src="img/pexels-cottonbro-5989933.webp" alt="" class="img6">
+
+            <h3 class="texto1">
+            Preparar-se adequadamente para uma entrevista de emprego é essencial para impressionar os entrevistadores e aumentar suas chances de sucesso. Aqui estão algumas estratégias para ajudar você a se sair bem em entrevistas:<br><br>
+
+Antes da Entrevista:<br><br>
+Pesquise a Empresa:<br>
+
+Conheça a empresa, sua cultura, valores e produtos/serviços oferecidos.
+Entenda o mercado em que a empresa atua e suas principais concorrências.<br><br>
+>Estude a Descrição da Vaga:<br>
+
+Analise a descrição da vaga para entender as habilidades e qualidades desejadas.
+Prepare exemplos específicos de como suas habilidades se alinham com os requisitos da vaga.<br><br>
+Pratique Respostas para Perguntas Comuns:<br>
+
+Antecipe perguntas comuns de entrevistas e pratique suas respostas.
+Destaque suas realizações passadas e como podem ser aplicadas à nova posição.<br><br>
+Prepare Perguntas para os Entrevistadores:<br>
+
+Prepare algumas perguntas sobre a empresa, a equipe e as expectativas para demonstrar seu interesse.
+Evite perguntas que podem ser facilmente respondidas com uma pesquisa básica.<br><br>
+Escolha uma Roupa Adequada:<br>
+
+Vista-se de forma profissional e adequada à cultura da empresa.
+Certifique-se de que suas roupas estejam limpas e em bom estado.<br><br>
+Durante a Entrevista:<br><br>
+Demonstre Confiança e Profissionalismo:<br>
+
+Mantenha uma postura ereta, faça contato visual e cumprimente os entrevistadores com firmeza.
+Demonstre confiança ao falar sobre suas habilidades e experiências.<br><br>
+Comunique-se de Forma Clara e Concisa:<br>
+
+Evite respostas muito longas ou vagas. Seja claro e direto.
+Use exemplos concretos para ilustrar suas realizações e habilidades.<br><br>
+Mostre Entusiasmo e Interesse:<br>
+
+Demonstre seu entusiasmo pela oportunidade e pela empresa.
+Fale sobre como suas habilidades e objetivos se alinham aos da empresa.<br><br>
+Lide com Perguntas Comportamentais:<br>
+
+Responda a perguntas comportamentais usando a estrutura STAR (Situação, Tarefa, Ação, Resultado).
+Destaque situações desafiadoras que você superou no passado.<br><br>
+Seja Transparente sobre suas Experiências:<br>
+
+Seja honesto sobre suas experiências e habilidades.
+Caso não saiba a resposta para uma pergunta, admita e destaque seu desejo de aprender.<br><br>
+Após a Entrevista:<br><br>
+Envie um E-mail de Agradecimento:<br>
+
+Envie um e-mail de agradecimento após a entrevista, expressando seu apreço pela oportunidade.
+Reforce seu interesse na posição e na empresa.<br><br>
+Avalie seu Desempenho:<br>
+
+Faça uma reflexão sobre como foi a entrevista e o que poderia ser melhorado.
+Use essa avaliação para se preparar melhor para futuras entrevistas.<br><br>
+Lembre-se de que cada entrevista é uma oportunidade de aprendizado, mesmo que não resulte em uma oferta de emprego. A prática constante e a adaptação às diferentes empresas e entrevistadores o ajudarão a se destacar nas entrevistas futuras.
+</h3>
+
+
+
+
+
+
+   
+
+
+        </div>
+    </div>
     </div>
 
-<h1 class="titulo">Como montar um bom currículo?</h1>
-
-<h3 class="texto1">
-    Você precisa pensar no conceito de marketing pessoal para aplicar a seu currículo.<br>
-    Essa é essência do que Você precisa pensar no conceito de marketing pessoal para <br>
-    aplicar a seu currículo. Essa é essência do que você precisa dominar,já que você <br>
-    está preparandoum seu currículo com a finalidade de atrair e convencer um potencial<br>
-    empregador a convocar você uma entrevista, fazendo com que ele tenha interesse em <br>
-    conhecer a pessoa por trás do papel e saber como você pode assumir o cargo que está<br>
-    sendo oferecido, com um bom aproveitamento para a empresa e para você. <br><br><br>
-
-    Estrutura: O visual do currículo é a primeira coisa que causa impacto em quem o <br>
-    recebe, pois a imagem já é processada no cérebro antes que a pessoa tenha tempo de<br>
-    ler o texto ou reconhecer algum nome de empresa ou escola que chame a atenção<br>
-    no conteúdo. Então, o formato do currículo é muito importante porque o leitor<br>
-    subconscientemente processa a imagem primeiro. Seja qual for a finalidade ou <br>
-    tipo de currículo que você deseja elaborar, ele precisa ser bem estruturado, de<br>
-    fácil leitura e padronizado. Isso vale tanto para quem está entrando no mercado <br>
-    de trabalho agora quanto para um profissional bem qualificado. No momento de <br>
-    apresentar a sua candidatura aos representantes de RH de uma empresa, é <br>
-    fundamental que a primeira impressão que o seu currículo cause é de que você<br>
-    tem competência e organização. <br><br><Br>
-
-    Margens: De acordo com Associação Brasileira de Normas Técnicas (ABNT).<br>
-     As margens devem conter 3cm no lado superior e esquerdo, e 2cm para o <br>
-     lado direito e inferior da página. <br><br><br>
-
-     Alinhamento: O alinhamento do currículo é um processo bastante simples,<br>
-      mas quase sempre deixados de lado- porque normalmente já fica do jeito <br>
-      que a maioria do mundo ocidental está acostumada a ler. Cabeçalhos,<br>
-       níveis de experiência, informações educacionais e habilidades adicionais<br> 
-       ou qualquer outra seção são alinhadas à esquerda do documento...
+<h1 class="titulo">Estratégias para entrevista de emprego</h1>
 
 
-
-</h3>
 
   
 </h3>
 
 
 
-<div class="card">
-      <p class="card-title">Informações de Contato</p>
-      <p class="small-desc">
-      Inclua seu nome completo, número de telefone, e-mail e, opcionalmente, um link para seu perfil no LinkedIn.
-      </p>
-      <div class="go-corner">
-        <div class="go-arrow">→</div>
-      </div>
-    </div>
 
-
-    <img src="img/pexels-cottonbro-5989933.webp" alt=""  class="img6">
-
-
-    <div class="card2">
-      <p class="card-title2">Resumo Profissional</p>
-      <p class="small-desc2">
-      Um breve resumo que destaca suas principais habilidades. Isso pode ser útil para chamar a atenção do empregador.      </p>
-      <div class="go-corner2">
-        <div class="go-arrow2">→</div>
-      </div>
-    </div>
-
-
-    <h3 class="texto2">Um bom currículo é aquele que deixa o menor número de dúvidas possível, mas desperta <br>
-     interesse do recrutador!<br><br><br>
-
-Nesta seção cabe um número variado de informações: certificações de cursos técnicos,<br>
-prêmios por reconhecimento, trabalho voluntário, informações sobre habilitação de <br>
-motorista, se for o caso. Ou até mesmo, se a oportunidade de trabalho for em outra <br>
-cidade, é nesse campo que você escreve sobre sua disponibilidade de mudança.<br><br><br>
-
-Cursos de idioma também entram aqui! Então se você possui algum, é bom especificar também <br>
-o seu nível de proficiência. Mas caso você não tenha, sem problemas. É melhor ser<br>
- sincera, afinal, mentiras em um currículo são facilmente detectadas na hora da entrevista.<br><br><br>
-
-Não coloque coisas apenas para aumentar o tamanho do currículo. Não há nada de errado com <br>
-um currículo sucinto! Já um currículo mentiroso pode te custar a vaga e a credibilidade!<br>
-  
-
-</h3>
 
 
 

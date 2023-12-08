@@ -5,47 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Empregaki</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     
     
 
-<img src="img/logo.png" alt=""  class="logo" >
+<img src="img/logo.png" alt=""  class="logo">
 
 <div class="quadrado-externo">
-        <!-- Quadrado Interno -->
-        <div class="quadrado-interno"></div>
-    </div>
 
-<h1 class="titulo">As tendências do mercado do trabalho</h1>
-
-<h3 class="texto1">
-Descubra algumas tendências mais quentes do #mercadodetrabalho e aprenda a <br>
-se preparar para elas. Neste artigo falo sobre as #habilidades e conhecimentos <br>
-necessários para se destacar em um ambiente profissional em constante evolução. <br><br>
-
-Saiba como adaptar-se às novas demandas e posicione-se para o sucesso!<br><br>
-Você já parou para pensar como o mercado de trabalho está em constante #transformação?<br>
- À medida que a tecnologia avança e as necessidades das empresas mudam, é <br>
- fundamental ficar atualizado sobre as tendências emergentes e se preparar para elas. <br>
- Hoje vamos explorar as tendências mais quentes do 
- #mercadodetrabalho e fornecer insights <br>
- sobre como você pode se destacar e se adaptar a essas mudanças.<br><br><br>
-    
+<div class="quadrado-externo">
 
 
-</h3>
+        <div class="quadrado-interno">
 
-  
+            <img src="img/tendencias-do-mercado-de-trabalho.png" alt="" class="img6">
+
+            <h3 class="texto1">
+  Descubra algumas tendências mais quentes do mercadodetrabalho e aprenda a se preparar para elas. Neste artigo falo sobre as habilidades e conhecimentos necessários para se destacar em um ambiente profissional em constante evolução. Saiba como adaptar-se às novas demandas e posicione-se para o sucesso! <br><br>
+
+  Você já parou para pensar como o mercado de trabalho está em constante transformação? À medida que a tecnologia avança e as necessidades das empresas mudam, é fundamental ficar atualizado sobre as tendências emergentes e se preparar para elas. Hoje vamos explorar as tendências mais quentes do mercadodetrabalho e fornecer insights sobre como você pode se destacar e se adaptar a essas mudanças.
+
 </h3>
 
 
 
 <div class="card">
-      <p class="card-title">Informações de Contato</p>
+      <p class="card-title">Responsabilidade social</p>
       <p class="small-desc">
-      Inclua seu nome completo, número de telefone, e-mail e, opcionalmente, um link para seu perfil no LinkedIn.
+      Empresas e consumidores estão valorizando cada vez mais práticas sustentáveis e éticas. 
       </p>
       <div class="go-corner">
         <div class="go-arrow">→</div>
@@ -53,38 +42,52 @@ Você já parou para pensar como o mercado de trabalho está em constante #trans
     </div>
 
 
-    <img src="img/tendencias-do-mercado-de-trabalho.png" alt=""  class="img6">
 
 
     <div class="card2">
-      <p class="card-title2">Resumo Profissional</p>
+      <p class="card-title2">Sustentabilidade</p>
       <p class="small-desc2">
-      Um breve resumo que destaca suas principais habilidades. Isso pode ser útil para chamar a atenção do empregador.      </p>
+      A preocupação com a responsabilidade social tem crescido significativamente nos últimos anos.     </p>
       <div class="go-corner2">
         <div class="go-arrow2">→</div>
       </div>
     </div>
 
 
-    <h3 class="texto2">Um bom currículo é aquele que deixa o menor número de dúvidas possível, mas desperta <br>
-     interesse do recrutador!<br><br><br>
+    <h3 class="texto2">Automação e #InteligênciaArtificial (IA)<br><br>
+A #automação e a inteligência artificial estão moldando o futuro do trabalho. Descubra como essas tecnologias estão revolucionando diversos setores e aprenda as habilidades que serão valorizadas nesse contexto.
 
-Nesta seção cabe um número variado de informações: certificações de cursos técnicos,<br>
-prêmios por reconhecimento, trabalho voluntário, informações sobre habilitação de <br>
-motorista, se for o caso. Ou até mesmo, se a oportunidade de trabalho for em outra <br>
-cidade, é nesse campo que você escreve sobre sua disponibilidade de mudança.<br><br><br>
+A automação e a inteligência artificial estão cada vez mais presentes em diversos setores da economia. Tarefas repetitivas e previsíveis estão sendo automatizadas, o que pode levar à redução de alguns empregos. No entanto, a automação também cria novas oportunidades de trabalho, como o desenvolvimento e a manutenção de sistemas de IA, a adaptação de processos às novas tecnologias e a criação de soluções inovadoras.<br><br>
 
-Cursos de idioma também entram aqui! Então se você possui algum, é bom especificar também <br>
-o seu nível de proficiência. Mas caso você não tenha, sem problemas. É melhor ser<br>
- sincera, afinal, mentiras em um currículo são facilmente detectadas na hora da entrevista.<br><br><br>
-
-Não coloque coisas apenas para aumentar o tamanho do currículo. Não há nada de errado com <br>
-um currículo sucinto! Já um currículo mentiroso pode te custar a vaga e a credibilidade!<br>
+Para se preparar para essa tendência, é essencial desenvolver habilidades que complementem a automação, como pensamento crítico, criatividade, habilidades de resolução de problemas e capacidade de trabalhar em equipe. Além disso, buscar conhecimento em áreas relacionadas à inteligência artificial e automação, como ciência de dados e programação, pode abrir portas para novas oportunidades.
   
+Trabalhoremoto e Freelancer<br><br>
+O trabalho remoto e a economia freelancer estão ganhando força em todo o mundo. A pandemia de COVID-19 acelerou a adoção do trabalho remoto e a tendência de contratação de profissionais freelancers. As empresas perceberam que muitas atividades podem ser realizadas fora do escritório tradicional, o que oferece mais flexibilidade tanto para empregadores quanto para funcionários. Além disso, o acesso a talentos globais por meio de plataformas de freelancers ampliou o alcance das empresas.
 
+Para se adaptar a esse cenário, é importante desenvolver habilidades de comunicação virtual, gerenciamento de tempo e autodisciplina. Além disso, a construção de uma boa rede de contatos profissionais, tanto presencialmente quanto online, é fundamental para encontrar oportunidades de trabalho remoto ou projetos freelance.<br><br><br>
+
+Habilidades Digitais e #TransformaçãoDigital<br><br>
+A transformação digital está impactando todos os setores da #economia. A #economiadigital e o #comércioeletrônico estão em constante expansão. Cada vez mais pessoas estão realizando compras online e empresas de todos os setores estão se adaptando a essa demanda. Além disso, novas profissões surgiram nesse contexto, como marketing digital, desenvolvimento de aplicativos e gestão de redes sociais.
+
+Para se preparar para essa tendência, é importante adquirir habilidades relacionadas à tecnologia, como marketing digital, análise de dados e desenvolvimento web. O conhecimento das tendências do comércio eletrônico e a capacidade de se adaptar rapidamente às novas plataformas e ferramentas também são essenciais.
 </h3>
 
-<p>Automação e #InteligênciaArtificial (IA)</p>
+
+
+        </div>
+    </div>
+    </div>
+
+<h1 class="titulo">As Tendências do Mercado de Trabalho</h1>
+
+
+
+  
+</h3>
+
+
+
+
 
 
 
