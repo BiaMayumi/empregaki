@@ -1,3 +1,4 @@
+//Assistente Administrativo
 document.addEventListener('DOMContentLoaded', function () {
     var lerMaisBtn = document.querySelector('.lerMaisBtn');
     var lerMenosBtn = document.querySelector('.lerMenosBtn');
@@ -34,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-// Técnico de TI
+//Técnico de TI
 document.addEventListener('DOMContentLoaded', function () {
     var lerMaisBtn = document.querySelector('.lerMaisBtn1');
     var lerMenosBtn = document.querySelector('.lerMenosBtn1');
