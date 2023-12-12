@@ -1,13 +1,11 @@
 body {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: black;    
-}
+    color: black;
+    font-family: 'Montserrat', sans-serif;}
 
 h1 {
-    /* text-align: center; */
     background-color: #2d4059;
     color: white;
     padding: 20px;
@@ -17,9 +15,9 @@ h1 {
 .infojob {
     text-align: center;
     margin: 10px 0;
-    border-bottom: 1px solid #00000022; /* Adicionando sublinhado com borda de 1 pixel de espessura */
-    padding-bottom: 5px; /* Ajustando o espaço entre o texto e o sublinhado */
-    margin-bottom: 10px; /* Adicionando um espaço entre os elementos */
+    border-bottom: 1px solid #00000022;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .container {
@@ -29,7 +27,6 @@ h1 {
     padding: 20px;
     border-radius: 5px;
     display: flex;
-    /* flex-direction: column; Alterado para disposição vertical */    
 }
 
 .quadrado {
@@ -51,7 +48,7 @@ h1 {
 
 .infof {
     padding: 10px;
-    
+
 }
 
 .quadrado:hover {
@@ -59,79 +56,65 @@ h1 {
     border-bottom: 2px solid #d2d7d3;
 }
 
-     /* position: absolute; */
-    /* display: flex;
-    justify-content: center;
-    background-color: #1c2837;
-    padding: 10px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    width: 16%;
-    height: 20%; */
-    /* text-align: center;
-    cursor: pointer; */
+.cta {
+    position: absolute;
+    margin-left: 38%;
+    margin-top: -8rem;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
 
-    .cta {
-        position: absolute;
-        margin-left: 38%;
-        margin-top: -8rem;
-        /* margin: auto; */
-        padding: 12px 18px;
-        transition: all 0.2s ease;
-        border: none;
-        background: none;
-        cursor: pointer;
-       }
-       
-       .cta:before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        display: block;
-        border-radius: 50px;
-        background: #4F719D;
-        width: 45px;
-        height: 45px;
-        transition: all 0.3s ease;
-       }
-       
-       .cta span {
-        position: relative;
-        font-family: "Ubuntu", sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-        letter-spacing: 0.05em;
-        color: #234567;
-       }
-       
-       .cta svg {
-        position: relative;
-        /* top: 0; */
-        margin-left: 10px;
-        fill: none;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        stroke: #234567;
-        stroke-width: 2;
-        transform: translateX(-5px);
-        transition: all 0.3s ease;
-       }
-       
-       .cta:hover:before {
-        width: 100%;
-        background: #f0efef;
-       }
-       
-       .cta:hover svg {
-        transform: translateX(0);
-       }
-       
-       .cta:active {
-        transform: scale(0.95);
-       }
-    
-.oculto , .oculto1 , .oculto2 , .oculto3 , .oculto4 , .oculto5 {
+.cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #4F719D;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+}
+
+.cta span {
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+}
+
+.cta svg {
+    position: relative;
+    /* top: 0; */
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+    width: 100%;
+    background: #f0efef;
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active {
+    transform: scale(0.95);
+}
+
+.oculto, .oculto1, .oculto2, .oculto3, .oculto4, .oculto5 {
     display: none;
 }
 
@@ -141,12 +124,10 @@ h1 {
     margin-left: 95%;
 }
 
-.lerMaisBtn , .lerMaisBtn1 , .lerMaisBtn2 , .lerMaisBtn3 , .lerMaisBtn4 , .lerMaisBtn5, .lerMenosBtn, .lerMenosBtn1, .lerMenosBtn2, .lerMenosBtn3, .lerMenosBtn4, .lerMenosBtn5{
+.lerMaisBtn, .lerMaisBtn1, .lerMaisBtn2, .lerMaisBtn3, .lerMaisBtn4, .lerMaisBtn5, .lerMenosBtn, .lerMenosBtn1, .lerMenosBtn2, .lerMenosBtn3, .lerMenosBtn4, .lerMenosBtn5 {
     border: none;
     background: none;
     color: rgb(135, 135, 135);
     cursor: pointer;
     text-decoration: underline;
 }
-
-
