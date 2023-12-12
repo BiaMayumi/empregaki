@@ -140,7 +140,7 @@ h3 {
 
 .circulos {
     display: inline-flex;
-    margin-left: 10em;
+    margin-left: 12em;
     margin-top: 5em;
     cursor: pointer;
     text-align: center;
@@ -179,7 +179,7 @@ h3 {
 
 .quadrados {
     display: inline-flex;
-    margin-left: 7em;
+    margin-left: 8.5em;
     margin-top: 3em;
     cursor: pointer;
 }
