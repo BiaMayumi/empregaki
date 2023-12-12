@@ -114,6 +114,7 @@ h3 {
     margin-top: 30vh;
     font-size: 2.3rem;
     font-weight: 200;
+    
 }
 
 /* Seção 2 */
@@ -194,7 +195,6 @@ h3 {
 }
 
 
-
 .quadrados h3 {
     position: absolute;
     font-size: 1.2rem;
@@ -223,7 +223,6 @@ h3 {
     font-size: 15px;
     margin: auto;
     margin-top: 2em;
-
 }
 
 a {
@@ -267,10 +266,9 @@ a {
 
 .secao4 h1 {
     text-align: center;
-    margin-top: 8;
     font-weight: 200;
-    padding-top: 3em;
-    font-size: 2em;
+    padding-top: 2em;
+    font-size: 2.5em;
 
 }
 
@@ -280,7 +278,6 @@ a {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-
 }
 
 .cards .card {
@@ -311,6 +308,7 @@ a {
     font-size: 14px;
     line-height: 1.5;
     margin-bottom: 20px;
+
 }
 
 .cards .card .btn-primary {
@@ -330,6 +328,8 @@ a {
 .secao5 {
     background-color: #2D4059;
     color: aliceblue;
+    margin-top: 3em;
+
 }
 
 /* seção 6 */
@@ -338,6 +338,9 @@ a {
     background-color: #ffffff;
     padding: 40px 0;
     text-align: center;
+    margin-top: 2.5em;
+
+    
 }
 
 .titulo-patrocinadores {
@@ -380,6 +383,8 @@ a {
 .secao7 {
     background-color: #2D4059;
     color: #fff;
+    margin-top: 2.5em;
+
 }
 
 .textosecao7 {
