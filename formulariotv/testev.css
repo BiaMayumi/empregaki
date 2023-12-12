@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
-body{
-  backdrop-filter: blur(10px);
-
+body {
+  font-family: 'Poppins', sans-serif;
 }
+
 img {
   width: 38px;
   height: auto;
@@ -10,20 +9,17 @@ img {
   margin-left: 30px;
 }
 
-h1 {
-  font-family: 'Poppins', sans-serif;
+h1, h2 {
   font-size: 38px;
   text-align: left;
-  margin-top: 80px;
   margin-left: 200px;
+  transition: transform 0.3s ease-in-out;
+  margin-top: 2em;
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  text-align: left;
   margin-top: 120px;
-  margin-left: 200px;
 }
 
 .group {
@@ -31,34 +27,19 @@ h2 {
 }
 
 .form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
   align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
   flex-direction: column;
-  padding: 1200px;
-  padding-top: 60px;
-  padding-bottom: 90px;
-  padding-right: 40px;
-  padding-left: 40px;
-  background-color:  #2D4059;
+  padding: 120px 40px 90px;
+  background-color: #2D4059;
   border-radius: 20px;
   position: relative;
   width: 250px;
   height: 300px;
   margin-left: 750px;
   gap: 50px;
-  margin-top: -430px;
-  font-family: 'Poppins', sans-serif;
-  
+  margin-top: -20em;
 }
 
 .form p {
@@ -67,12 +48,10 @@ h2 {
   font-weight: bold;
   letter-spacing: .5px;
   color: white;
-
 }
 
 .container-1 {
   padding-top: 30px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .main-input {
@@ -90,7 +69,7 @@ h2 {
   outline: none;
 }
 
-.lebal-email {
+.label-email {
   color: #ffffff;
   font-size: 18px;
   font-weight: normal;
@@ -99,15 +78,13 @@ h2 {
   left: 5px;
   top: 10px;
   transition: 0.2s ease all;
-  -moz-transition: 0.2s ease all;
-  -webkit-transition: 0.2s ease all;
 }
 
-.main-input:focus~.lebal-email,
-.main-input:valid~.lebal-email {
+.main-input:focus~.label-email,
+.main-input:valid~.label-email {
   top: -20px;
   font-size: 14px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .highlight-span {
@@ -121,18 +98,7 @@ h2 {
 }
 
 .main-input:focus~.highlight-span {
-  -webkit-animation: input-focus 0.3s ease;
   animation: input-focus 0.3s ease;
-}
-
-@keyframes input-focus {
-  from {
-    background: rgb(112, 83, 227);
-  }
-
-  to {
-    width: 185px;
-  }
 }
 
 .submit {
@@ -143,5 +109,21 @@ h2 {
   font-size: medium;
   font-family: 'Poppins', sans-serif;
   border: none;
+  background-color: #4F719D;
+  color: #ffffff;
+}
 
+.submit:hover {
+  background-color: #0056b3;
+}
+
+/* Animação ao focar no input */
+@keyframes input-focus {
+  from {
+    background: #7053e3;
+  }
+
+  to {
+    width: 185px;
+  }
 }

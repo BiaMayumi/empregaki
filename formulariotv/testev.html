@@ -9,51 +9,38 @@
 </head>
 
 <body>
-  <a href="../home/index.php"><img src="img/logo 1.png" alt="Descrição da imagem">
-  </a>
+  <a href="../home/index.php"><img src="img/logo 1.png" alt="Descrição da imagem"></a>
 
-  <h1> Descubra a profissão <br>
-    que mais tem haver <br>
+  <h1 class="effect"> Descubra a profissão <br>
+    que mais tem a ver <br>
     com você!</h1>
 
-  <h2>Preencha o formulário para <br>
+  <h2 class="effect">Preencha o formulário para <br>
     continuarmos -></h2>
 
   <form class="form">
-
     <div class="group">
       <input required="true" class="main-input" type="text">
       <span class="highlight-span"></span>
-      <label class="lebal-email">Nome*</label>
+      <label class="label-email">Nome*</label>
     </div>
     <div class="container-1">
       <div class="group">
         <input required="true" class="main-input" type="text">
         <span class="highlight-span"></span>
-        <label class="lebal-email">Email*</label>
+        <label class="label-email">Email*</label>
       </div>
     </div>
-    <a href="../teste-vocacional/index.html"><button class="submit">Ir para o teste</button></a>
-
+    <button class="submit" onclick="window.location.href='../teste-vocacional/index.html'">Ir para o teste</button>
   </form>
-<<<<<<< HEAD
+
+  <script>
+    const submitButton = document.querySelector('.submit');
+    submitButton.addEventListener('click', () => {
+      window.location.href = '../teste-vocacional/index.html';
+    });
+  </script>
+
 </body>
 
-=======
-  
-
-
-
-=======
-      <div class="container-1">
-          <div class="group">
-              <input required="true" class="main-input" type="text">
-              <span class="highlight-span"></span>
-              <label class="lebal-email">Email*</label>
-            </div>
-      </div>
-      <a href="../teste-vocacional/index.html"><button class="submit">Ir para o teste</button></a>
-      </form>  
-  </body>
->>>>>>> 6cdc765af1df6baba9a09d70f1154fe594fe617c
 </html>
