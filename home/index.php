@@ -47,6 +47,7 @@
     <section class="secao3">
         <h1>Encontre um emprego na sua área</h1>
 
+        <a href="../vagas/pcd.html">
         <div class="quadrados">
             <h3>PCD</h3>
             <img src="img/pcd.png">
