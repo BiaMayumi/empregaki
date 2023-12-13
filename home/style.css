@@ -107,26 +107,6 @@ body {
     color: #ffffff;
 }
 
-.secao2 h1,
-h3 {
-    color: #000000;
-    text-align: center;
-    margin-top: 30vh;
-    font-size: 2.3rem;
-    font-weight: 200;
-    
-}
-
-/* Seção 2 */
-.secao2 h1 {
-    margin-top: 40vh;
-}
-
-.secao2 h3 {
-    margin-top: 20vh;
-    font-size: 1.3rem;
-}
-
 .secao1 .pesquisa {
     border-radius: 125px;
     border: none;
@@ -139,29 +119,62 @@ h3 {
     color: #2D4059;
 }
 
-.circulos {
-    display: inline-flex;
-    margin-left: 12em;
-    margin-top: 5em;
-    cursor: pointer;
+
+/* Seção 2 */
+
+
+
+/* Seção 2 */
+.secao2 {
+    display: flex;
+    flex-direction: row; /* Mantido para posicionar os elementos lado a lado */
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    transition: transform 0.3s ease;
+    height: 50vh; /* Torna a seção 2 ocupar toda a altura da tela */
+    
+}
+
+.secao2-5 {
+    display: flex;
+    flex-direction: row; /* Mantido para posicionar os elementos lado a lado */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 0vh; /* Torna a seção 2 ocupar toda a altura da tela */
+}
+
+.circulos {
+    margin: 0 8em; /* Adicione margens laterais para espaçamento entre os círculos */
+    display: flex;
+    flex-direction: column; /* Mantido para posicionar o texto acima da imagem */
+    align-items: center;
+    text-align: center; /* Alinhe o texto ao centro dentro do contêiner */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave ao efeito hover */
 }
 
 
-.circulos:hover {
-  transform: translateY(-10px); /* Move os círculos para cima ao passar o cursor sobre eles */
+.circulos img {
+    width: 250px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Isso mantém a proporção original da imagem */
+    margin-bottom: 1em; /* Espaçamento entre a imagem e o texto */
+    
 }
 
 .circulos h1 {
-    position: absolute;
     font-size: 1.2rem;
-    text-align: center;
+    margin: 0; /* Remova a margem superior para posicionar o texto acima da imagem */
 }
 
-.circulos #Admissao {
-    margin-left: 2.3em;
+.circulos:hover {
+    transform: translateY(-10px); /* Move os círculos para cima ao passar o mouse sobre eles */
+    cursor: pointer;
 }
+
+
+
+
+
 
 /* Seção 3 */
 .secao3 {

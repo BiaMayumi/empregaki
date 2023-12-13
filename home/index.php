@@ -23,10 +23,18 @@
         <input type="text" placeholder="Pesquise aqui" class="pesquisa">
     </section>
 
+   
+
     <!-- Seção 2 -->
     <section class="secao2">
         <h1>Soluções inteligentes de ponta a ponta</h1>
+    </section>
+    <br>
+    <br>
+    <br>
+    
 
+    <section class="secao2-5">
         <div class="circulos">
             <img src="img/circulo1.png">
             <h1 id="Recrutamento">Recrutamento & Seleção</h1>
