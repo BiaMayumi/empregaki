@@ -48,28 +48,28 @@
         <h1>Encontre um emprego na sua área</h1>
 
         <div class="quadrados">
-            <h3>Primeiro Emprego</h3>
-            <img src="img/img quadrado.png">
+            <h3>PCD</h3>
+            <img src="img/pcd.png">
         </div>
 
         <div class="quadrados">
             <h3>Vendas</h3>
-            <img src="img/img quadrado2.png">
+            <img src="img/vendas.png">
         </div>
 
         <div class="quadrados">
             <h3>Administração</h3>
-            <img src="img/img quadrado3.png">
+            <img src="img/administracao.png">
         </div>
 
         <div class="quadrados">
             <h3>Financeiro</h3>
-            <img src="img/img quadrado4.png">
+            <img src="img/financeiro.png">
         </div>
 
         <div class="quadrados">
             <h3>Saúde</h3>
-            <img src="img/img quadrado5.png">
+            <img src="img/saude.png">
         </div>
 
         <div class="quadrados">
