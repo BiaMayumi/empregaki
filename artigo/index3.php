@@ -20,6 +20,9 @@
 
         <div class="quadrado-interno">
 
+        <h1 class="titulo">Estratégias para entrevista de emprego</h1>
+
+
             <img src="img/pexels-cottonbro-5989933.webp" alt="" class="img6">
 
             <h3 class="texto1">
@@ -91,7 +94,6 @@ Lembre-se de que cada entrevista é uma oportunidade de aprendizado, mesmo que n
     </div>
     </div>
 
-<h1 class="titulo">Estratégias para entrevista de emprego</h1>
 
 
 

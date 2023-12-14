@@ -31,7 +31,7 @@ body {
 .quadrado-externo {
     width: 1263px; /* Largura do quadrado externo */
     height: 1900px; /* Altura do quadrado externo */
-    background-color: #2D4059;
+    background-color: #ffffff;
     position: absolute;
     top: 150px;
 }
@@ -47,20 +47,18 @@ body {
     transform: translate(-50%, -50%); /* Centraliza o quadrado interno corretamente */
 }
 
-
-
 .titulo {
-    font-family: "Ubuntu", sans-serif;
-    font-size: 2rem;
-    font-weight: 200; /* Valor ajustado para tornar a fonte mais fina */
-    color: #000000;
-    text-align: center;
-    animation: moveTitle 2s infinite alternate;
-    position: absolute;
-    top: 60px;
-    left: 390px;
-    border-bottom: 1px solid #000000; /* Adiciona uma linha preta de 2 pixels abaixo do título */
-    padding-bottom: 10px; /* Adiciona algum espaço entre o título e a linha */
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 200; /* Valor ajustado para tornar a fonte mais fina */
+  color: #000000;
+  text-align: center;
+  animation: moveTitle 2s infinite alternate;
+  position: relative;
+  top: -10px;
+  left: -20px;
+  border-bottom: 1px solid #000000; /* Adiciona uma linha preta de 2 pixels abaixo do título */
+  padding-bottom: 10px; /* Adiciona algum espaço entre o título e a linha */
 }
 
 .texto1{

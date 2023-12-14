@@ -22,6 +22,9 @@
 
             <img src="img/tendencias-do-mercado-de-trabalho.png" alt="" class="img6">
 
+            <h1 class="titulo">As Tendências do Mercado de Trabalho</h1>
+
+
             <h3 class="texto1">
   Descubra algumas tendências mais quentes do mercadodetrabalho e aprenda a se preparar para <br>elas. Neste artigo falo sobre as habilidades e conhecimentos necessários para se destacar em um <br>ambiente profissional em constante evolução. Saiba como adaptar-se às novas demandas e <br>posicione-se para o sucesso! <br><br>
 
@@ -78,7 +81,6 @@ Para se preparar para essa tendência, é importante adquirir habilidades <br>re
     </div>
     </div>
 
-<h1 class="titulo">As Tendências do Mercado de Trabalho</h1>
 
 
 

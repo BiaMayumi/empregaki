@@ -20,6 +20,9 @@
 
         <div class="quadrado-interno">
 
+        <h1 class="titulo">Como montar um bom currículo?</h1>
+
+
             <img src="img/pexels-cottonbro-5989933.webp" alt="" class="img6">
 
             <h3 class="texto1">
@@ -80,7 +83,6 @@ um <br>currículo sucinto! Já um currículo mentiroso pode te custar a vaga e a
     </div>
     </div>
 
-<h1 class="titulo">Como montar um bom currículo?</h1>
 
 
 
