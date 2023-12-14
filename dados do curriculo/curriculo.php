@@ -118,22 +118,22 @@
 
 
             <label for="genero">Gênero:</label>
-    <select id="generoSelect" name="genero" onchange="exibirOpcaoSelecionada()">
-        <option value="Homem">Homem</option>
-        <option value="Mulher">Mulher</option>
-        <option value="Indefinido">Prefiro não dizer</option>
-        <option value="Outros">Outros</option>
-    </select>
+            <select id="generoSelect" name="genero" onchange="exibirOpcaoSelecionada()">
+                <option value="Homem">Homem</option>
+                <option value="Mulher">Mulher</option>
+                <option value="Indefinido">Prefiro não dizer</option>
+                <option value="Outros">Outros</option>
+            </select>
 
-    <input type="text" id="generoTexto" name="genero" readonly required>
+            <input type="text" id="generoTexto" name="genero" readonly required>
 
-    <script>
-        function exibirOpcaoSelecionada() {
-            var select = document.getElementById("generoSelect");
-            var texto = document.getElementById("generoTexto");
-            texto.value = select.value;
-        }
-    </script>
+            <script>
+                function exibirOpcaoSelecionada() {
+                    var select = document.getElementById("generoSelect");
+                    var texto = document.getElementById("generoTexto");
+                    texto.value = select.value;
+                }
+            </script>
 
 
             <label for="endereco">Endereço:</label>
@@ -154,36 +154,4 @@
 </html>
 
 <?php
-    // Conexão com o banco de dados
-    $servername = "localhost";
-    $username = "root";
-    $password = "root";
-    $dbname = "EmpregakiCurriculo";
 
-    $conn = new mysqli($servername, $username, $password, $dbname);
-
-    if ($conn->connect_error) {
-        die("Conexão falhou: " . $conn->connect_error);
-    }
-
-    $NomeCompleto = $_POST["nome"];
-    $Telefone = $_POST["telefone"];
-    $EstadoCivil = $_POST["estadoCivil"];
-    $Genero = $_POST["genero"];
-    $Endereco = $_POST["endereco"];
-    $Objetivo = $_POST["objetivo"];
-    $Adicionais = $_POST["adicionais"];
-
-// Inserir dados no banco de dados
-$sql = "INSERT INTO Clientes (nome, telefone, estadoCivil, genero, endereco, objetivo, adicionais) VALUES ('$NomeCompleto', '$Telefone', '$EstadoCivil', '$Genero', '$Endereco', '$Objetivo', '$Adicionais')";
-
-    if ($conn->query($sql) === TRUE) {
-        // Redirecionar para a página de usuário
-        header("Location: usuario.php");
-        exit();
-    } else {
-        echo "Erro ao inserir dados: " . $conn->error;
-    }
-
-    $conn->close();
-?>

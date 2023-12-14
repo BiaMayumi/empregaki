@@ -23,7 +23,7 @@
         <input type="text" placeholder="Pesquise aqui" class="pesquisa">
     </section>
 
-   
+
 
     <!-- Seção 2 -->
     <section class="secao2">
@@ -32,7 +32,7 @@
     <br>
     <br>
     <br>
-    
+
 
     <section class="secao2-5">
         <div class="circulos">
@@ -56,43 +56,43 @@
         <h1>Encontre um emprego na sua área</h1>
 
         <a href="../vagas/pcd.html">
-        <div class="quadrados">
-            <h3>PCD</h3>
-            <img src="img/pcd.png">
-        </div>
+            <div class="quadrados">
+                <h3>PCD</h3>
+                <img src="img/pcd.png">
+            </div>
 
-        <div class="quadrados">
-            <h3>Vendas</h3>
-            <img src="img/vendas.png">
-        </div>
+            <div class="quadrados">
+                <h3>Vendas</h3>
+                <img src="img/vendas.png">
+            </div>
 
-        <div class="quadrados">
-            <h3>Administração</h3>
-            <img src="img/administracao.png">
-        </div>
+            <div class="quadrados">
+                <h3>Administração</h3>
+                <img src="img/administracao.png">
+            </div>
 
-        <div class="quadrados">
-            <h3>Financeiro</h3>
-            <img src="img/financeiro.png">
-        </div>
+            <div class="quadrados">
+                <h3>Financeiro</h3>
+                <img src="img/financeiro.png">
+            </div>
 
-        <div class="quadrados">
-            <h3>Saúde</h3>
-            <img src="img/saude.png">
-        </div>
+            <div class="quadrados">
+                <h3>Saúde</h3>
+                <img src="img/saude.png">
+            </div>
 
-        <div class="quadrados">
-            <h3>Cozinha</h3>
-            <img src="../home/img/cozinha.png">
-        </div>
+            <div class="quadrados">
+                <h3>Cozinha</h3>
+                <img src="../home/img/cozinha.png">
+            </div>
 
-        <a href="../vagas/vagas.html"><button class="button">
-                Ver mais
-                <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
-                    <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
-                </svg>
-            </button></a>
-        <br><br>
+            <a href="../vagas/vagas.html"><button class="button">
+                    Ver mais
+                    <svg fill="currentColor" viewBox="0 0 24 24" class="icon">
+                        <path clip-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" fill-rule="evenodd"></path>
+                    </svg>
+                </button></a>
+            <br><br>
     </section>
 
     <!-- Seção 4 -->
