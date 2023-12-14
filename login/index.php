@@ -25,11 +25,12 @@
                     <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
                     <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
+
                 <span>Ou use seu email para resgitro</span>
-                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Name" method="POST">
                 <input type="email" name="email" placeholder="Email">
                 <input type="password" name="senha" placeholder="Password">
-                <button>Entrar</button>
+                <button type="submit">Entrar</button>
             </form>
         </div>
         <div class="form-container sign-in">
@@ -67,3 +68,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+?php>

@@ -49,7 +49,7 @@
     </div>
 
 
-    <img src="img/pexels-cottonbro-5989933.webp" alt=""  class="img6">
+    <img src="img/pexels-cottonbro-5989933.webp" alt="home/index.php"  class="img6" href="home/index.php">
 
 
     <div class="card2">

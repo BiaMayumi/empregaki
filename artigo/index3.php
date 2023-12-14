@@ -11,7 +11,7 @@
     
     
 
-<img src="img/logo.png" alt=""  class="logo">
+    <a href="../home/index.php" class="logo"><img src="img/logo.png"></a>
 
 <div class="quadrado-externo">
 
@@ -23,7 +23,7 @@
         <h1 class="titulo">Estratégias para entrevista de emprego</h1>
 
 
-            <img src="img/pexels-cottonbro-5989933.webp" alt="" class="img6">
+        <img src="img/pexels-cottonbro-5989933.webp" alt="home/index.php"  class="img6" href="home/index.php">
 
             <h3 class="texto1">
             Preparar-se adequadamente para uma entrevista de emprego é essencial para impressionar os <br>entrevistadores e aumentar suas chances de sucesso. Aqui estão algumas estratégias para ajudar <br>você a se sair bem em entrevistas:<br><br>
